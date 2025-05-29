@@ -1,0 +1,74 @@
+// 定义模块配置对象
+{
+  "module": {
+    // 模块名称
+    "name": "entry",
+    // 模块类型
+    "type": "entry",
+    // 主要元素名称
+    "mainElement": "EntryAbility",
+    // 支持的设备类型列表
+    "deviceTypes": [
+      "phone"
+    ],
+    // 是否在安装时交付
+    "deliveryWithInstall": true,
+    // 是否免安装
+    "installationFree": false,
+    // 页面配置引用
+    "pages": "$profile:main_pages",
+    // 元数据列表，用于特殊配置
+    "metadata": [
+      {
+        // 元数据名称
+        "name": "ArkTSPartialUpdate",
+        // 元数据值
+        "value": "true"
+      }
+    ],
+    // 能力列表
+    "abilities": [
+      {
+        // 能力名称
+        "name": "EntryAbility",
+        // 能力的源入口文件路径
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        // 能力的描述
+        "description": "$string:description_mainability",
+        // 能力的图标
+        "icon": "$media:icon",
+        // 能力的标签
+        "label": "$string:entry_MainAbility",
+        // 启动窗口的图标
+        "startWindowIcon": "$media:icon",
+        // 启动窗口的背景色
+        "startWindowBackground": "$color:start_window_background",
+        // 是否导出能力
+        "exported": true,
+        // 技能列表，定义能力所支持的实体和动作
+        "skills": [
+          {
+            // 实体列表
+            "entities": [
+              "entity.system.home"
+            ],
+            // 动作列表
+            "actions": [
+              "action.system.home"
+            ]
+          },
+          {
+            // 新增隐私窗口权限
+            "entities": [
+              "ohos.permission.PRIVACY_WINDOW"
+            ],
+            // 新增生物特征识别权限
+            "entities": [
+              "ohos.permission.ACCESS_BIOMETRIC"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

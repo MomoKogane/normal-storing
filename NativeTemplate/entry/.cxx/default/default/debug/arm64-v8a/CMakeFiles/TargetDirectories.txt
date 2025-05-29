@@ -1,0 +1,3 @@
+D:/Huawei/devecoProjects/NativeTemplate/entry/.cxx/default/default/debug/arm64-v8a/CMakeFiles/hello.dir
+D:/Huawei/devecoProjects/NativeTemplate/entry/.cxx/default/default/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Huawei/devecoProjects/NativeTemplate/entry/.cxx/default/default/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir

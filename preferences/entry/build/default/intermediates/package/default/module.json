@@ -1,0 +1,58 @@
+{
+	"app":	{
+		"bundleName":	"ohos.samples.preference",
+		"vendor":	"samples",
+		"versionCode":	1000000,
+		"versionName":	"1.0.0",
+		"icon":	"$media:app_icon",
+		"label":	"$string:app_name",
+		"singleton":	true,
+		"distributedNotificationEnabled":	true,
+		"apiReleaseType":	"Release",
+		"compileSdkVersion":	"5.0.2.126",
+		"targetAPIVersion":	50002014,
+		"minAPIVersion":	50000012,
+		"compileSdkType":	"HarmonyOS",
+		"appEnvironments":	[],
+		"bundleType":	"app",
+		"buildMode":	"debug",
+		"debug":	true,
+		"iconId":	16777217,
+		"labelId":	16777216
+	},
+	"module":	{
+		"name":	"entry",
+		"type":	"entry",
+		"srcEntry":	"./ets/application/AbilityStage.ets",
+		"description":	"$string:entry_desc",
+		"mainElement":	"MainAbility",
+		"deviceTypes":	["phone"],
+		"deliveryWithInstall":	true,
+		"installationFree":	false,
+		"pages":	"$profile:main_pages",
+		"abilities":	[{
+				"name":	"MainAbility",
+				"srcEntry":	"./ets/mainability/MainAbility.ets",
+				"description":	"$string:MainAbility_desc",
+				"icon":	"$media:icon",
+				"label":	"$string:MainAbility_label",
+				"startWindowIcon":	"$media:icon",
+				"startWindowBackground":	"$color:white",
+				"exported":	true,
+				"skills":	[{
+						"entities":	["entity.system.home"],
+						"actions":	["action.system.home"]
+					}],
+				"descriptionId":	16777218,
+				"iconId":	16777235,
+				"labelId":	16777219,
+				"startWindowIconId":	16777235,
+				"startWindowBackgroundId":	16777229
+			}],
+		"packageName":	"entry",
+		"virtualMachine":	"ark12.0.2.0",
+		"compileMode":	"esmodule",
+		"dependencies":	[],
+		"descriptionId":	16777223
+	}
+}
