@@ -1,0 +1,1763 @@
+[2025-05-15T20:51:49.399] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-05-15T20:51:50.180] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-05-15T20:51:50.246] [DEBUG] debug-file - hvigorfile, resolving D:\Huawei\devecoProjects\app-account-manager\hvigorfile.ts
+[2025-05-15T20:51:53.557] [DEBUG] debug-file - hvigorfile, require result:  { appTasks: [Getter] }
+[2025-05-15T20:51:53.725] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-05-15T20:51:53.730] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-05-15T20:51:53.754] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-05-15T20:51:53.738] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-05-15T20:51:53.743] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-05-15T20:51:53.828] [DEBUG] debug-file - hvigorfile, resolving D:\Huawei\devecoProjects\app-account-manager\entry\hvigorfile.ts
+[2025-05-15T20:51:53.785] [DEBUG] debug-file - Sdk init in 52 ms 
+[2025-05-15T20:51:53.849] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-05-15T20:51:53.816] [DEBUG] debug-file - Project task initialization takes 29 ms 
+[2025-05-15T20:51:53.860] [DEBUG] debug-file - project has submodules:entry
+[2025-05-15T20:51:53.880] [DEBUG] debug-file - Configuration task cost before running: 3 s 732 ms 
+[2025-05-15T20:51:53.884] [DEBUG] debug-file - Executing task :entry:clean
+[2025-05-15T20:51:53.856] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2025-05-15T20:51:53.889] [DEBUG] debug-file - entry : clean cost memory 0.22992706298828125
+[2025-05-15T20:51:49.402] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2025-05-15T20:51:50.184] [DEBUG] debug-file - Since current hvigor version 5.14.3 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2025-05-15T20:51:53.927] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-05-15T20:51:53.907] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2025-05-15T20:51:53.557] [DEBUG] debug-file - hvigorfile, binding system plugins { appTasks: [Getter] }
+[2025-05-15T20:51:53.725] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-05-15T20:51:53.732] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-05-15T20:51:53.834] [DEBUG] debug-file - hvigorfile, require result:  { hapTasks: [Getter] }
+[2025-05-15T20:51:53.849] [DEBUG] debug-file - Target 'default' config: {}
+[2025-05-15T20:51:53.816] [DEBUG] debug-file - hvigorfile, resolve finished D:\Huawei\devecoProjects\app-account-manager\hvigorfile.ts
+[2025-05-15T20:51:53.861] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-05-15T20:51:53.885] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-05-15T20:51:53.856] [DEBUG] debug-file - hvigorfile, resolve finished D:\Huawei\devecoProjects\app-account-manager\entry\hvigorfile.ts
+[2025-05-15T20:51:53.889] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 740 ms 
+[2025-05-15T20:51:49.405] [DEBUG] debug-file - env: daemon=false
+[2025-05-15T20:51:50.185] [DEBUG] debug-file - Cache service initialization finished in 4 ms 
+[2025-05-15T20:51:53.929] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-05-15T20:51:53.914] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: false,
+  _: [],
+  env: {
+    ALLUSERSPROFILE: 'C:\\ProgramData',
+    APPDATA: 'C:\\Users\\邵国豪\\AppData\\Roaming',
+    ChocolateyInstall: 'C:\\ProgramData\\chocolatey',
+    ChocolateyLastPathUpdate: '133637180787624091',
+    classpath: '.;D:\\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\\bin',
+    CommonProgramFiles: 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files',
+    CommonProgramW6432: 'C:\\Program Files\\Common Files',
+    COMPUTERNAME: 'GEMINI12138',
+    ComSpec: 'C:\\WINDOWS\\system32\\cmd.exe',
+    config: '{"product":"default"}',
+    CREATED_BY: 'deveco',
+    CSSCRIPT_INC: 'C:\\ProgramData\\cs-script\\inc',
+    'DevEco Studio': 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;',
+    DEVECO_SDK_HOME: 'D:/Huawei/DevEcoStudio/Studio/DevEco Studio/sdk',
+    DriverData: 'C:\\Windows\\System32\\Drivers\\DriverData',
+    EFC_3016_1592913036: '1',
+    EFC_3016_2283032206: '1',
+    GOPATH: 'D:\\Go_codes',
+    GOROOT: 'D:\\Go',
+    HDC_SERVER_PORT: '65037',
+    HOMEDRIVE: 'C:',
+    HOMEPATH: '\\Users\\邵国豪',
+    IDEA_INITIAL_DIRECTORY: 'D:\\Huawei\\devecoProjects\\app-account-manager',
+    IGCCSVC_DB: 'AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVcuafCUC2U+mne6omC9wbQQAAAACAAAAAAAQZgAAAAEAACAAAAANRySzdxoVUKKKnhpR7sHflzIWdn6LRmv6XZCvYqOXTwAAAAAOgAAAAAIAACAAAADA0z/4QOb7UvxqOGwN5/BuF+mVPlQ40+8u+Y7TEU2GlGAAAAAvWw9Bvm/947enB6ZIhLQUVtrsJOFhp5/Nh63qUcekNSZModvPYn8HPyNOfLmt80Y7612xUYeLSXwJsA0fTxjp+Poi8vDpkP++FgYq/FifaZPG+hHWM5BeZfnISBAEzclAAAAAAT7Y+ZStjA0drcw4khJaGy9R0saFGf98uO5lkTClAduHrlDWnSI0DEdqhVLXCGk1bJmP1fl3/hdGHJPiujFFmQ==',
+    'IntelliJ IDEA': 'D:\\IntelliJ IDEA 2024.1.1\\bin;',
+    INTEL_DEV_REDIST: 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\',
+    JAVA_HOME: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr',
+    LOCALAPPDATA: 'C:\\Users\\邵国豪\\AppData\\Local',
+    LOGONSERVER: '\\\\GEMINI12138',
+    MIC_LD_LIBRARY_PATH: 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic',
+    NODE_HOME: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\node',
+    NODE_PATH: 'C:\\Users\\邵国豪\\.hvigor\\project_caches\\42e739a7852cf12f60d1d0a621e238d5\\workspace\\node_modules',
+    NO_UPDATE_NOTIFIER: 'true',
+    'npm_config_@ohos:registry': 'https://repo.harmonyos.com/npm/',
+    'npm_config_auto-install-peers': 'false',
+    'npm_config_strict-ssl': '',
+    'npm_config_update-notifier': 'false',
+    NUMBER_OF_PROCESSORS: '16',
+    OHOS_SDK_NATIVE: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\sdk\\default\\openharmony\\native',
+    ohpmBin: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\ohpm\\bin\\ohpm.bat',
+    OLLAMA_HOST: ':11434',
+    OLLAMA_ORIGINS: '*',
+    OneDrive: 'C:\\Users\\邵国豪\\OneDrive',
+    OneDriveConsumer: 'C:\\Users\\邵国豪\\OneDrive',
+    OS: 'Windows_NT',
+    Path: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr\\bin;D:/Huawei/DevEcoStudio/Studio/DevEco Studio/tools/node;D:\\app\\proj_user\\product\\12.1.0\\dbhome_1\\bin;D:\\oracle\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle12c\\oracleuser\\product\\12.1.0\\dbhome_2\\bin;C:\\Python312\\Scripts\\;C:\\Python312\\;D:\\oracle12c\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle\\bin;D:\\23ai\\dbhomeFree\\bin;D:\\Oracle23ai\\dbhomeFree\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Bandizip\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:;Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files \\dotnet\\;C:\\ProgramData\\chocolatey\\bin;D:\\;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;D:;Go\\bin;C:\\Program Files\\mingw64\\x86_64-w64-mingw32\\bin;D:\\PHP\\php-8.3.11-Win32-vs16-x64;D:\\Git\\cmd;D:\\Tencent\\WechatWebDeveloperTool\\微信web开发者工具\\dll;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;D:\\node.js\\;C:\\Program Files\\dotnet\\;D:\\node.js\\node_modules\\corepack\\shims;D:\\Redis;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;D:\\vivo\\pcsuite\\;D:\\Java\\jdk1.7.0_80\\bin;D:\\Java\\jre7\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\邵国豪\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin;D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;;D:\\JetBrains\\PyCharm 2024.2.4\\bin;;D:\\mingw64\\bin;D:\\IntelliJ IDEA 2024.1.1\\bin;;C:\\Program Files\\mingw64\\bin;C:\\Users\\邵国豪\\.dotnet\\tools;C:\\Program Files\\dotnet;D:\\node.js;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;;C:\\Users\\邵国豪\\go\\bin;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Ollama;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\node;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr\\bin;D:\\app\\proj_user\\product\\12.1.0\\dbhome_1\\bin;D:\\oracle\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle12c\\oracleuser\\product\\12.1.0\\dbhome_2\\bin;C:\\Python312\\Scripts\\;C:\\Python312\\;D:\\oracle12c\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle\\bin;D:\\23ai\\dbhomeFree\\bin;D:\\Oracle23ai\\dbhomeFree\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Bandizip\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:;Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files \\dotnet\\;C:\\ProgramData\\chocolatey\\bin;D:\\;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;D:;Go\\bin;C:\\Program Files\\mingw64\\x86_64-w64-mingw32\\bin;D:\\PHP\\php-8.3.11-Win32-vs16-x64;D:\\Git\\cmd;D:\\Tencent\\WechatWebDeveloperTool\\微信web开发者工具\\dll;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;D:\\node.js\\;C:\\Program Files\\dotnet\\;D:\\node.js\\node_modules\\corepack\\shims;D:\\Redis;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;D:\\vivo\\pcsuite\\;D:\\Java\\jdk1.7.0_80\\bin;D:\\Java\\jre7\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\邵国豪\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin;D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;;D:\\JetBrains\\PyCharm 2024.2.4\\bin;;D:\\mingw64\\bin;D:\\IntelliJ IDEA 2024.1.1\\bin;;C:\\Program Files\\mingw64\\bin;C:\\Users\\邵国豪\\.dotnet\\tools;C:\\Program Files\\dotnet;D:\\node.js;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;;C:\\Users\\邵国豪\\go\\bin;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Ollama;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;',
+    PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    pip: 'C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts',
+    pip3: 'C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts',
+    PROCESSOR_ARCHITECTURE: 'AMD64',
+    PROCESSOR_IDENTIFIER: 'Intel64 Family 6 Model 154 Stepping 3, GenuineIntel',
+    PROCESSOR_LEVEL: '6',
+    PROCESSOR_REVISION: '9a03',
+    ProgramData: 'C:\\ProgramData',
+    ProgramFiles: 'C:\\Program Files',
+    'ProgramFiles(x86)': 'C:\\Program Files (x86)',
+    ProgramW6432: 'C:\\Program Files',
+    PSModulePath: 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\PowerShell\\Modules\\',
+    PUBLIC: 'C:\\Users\\Public',
+    PyCharm: 'D:\\JetBrains\\PyCharm 2024.2.4\\bin;',
+    'PyCharm Community Edition': 'D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;',
+    QtMsBuild: 'C:\\Users\\邵国豪\\AppData\\Local\\QtMsBuild',
+    SESSIONNAME: 'Console',
+    SystemDrive: 'C:',
+    SystemRoot: 'C:\\WINDOWS',
+    TEMP: 'C:\\Users\\邵国豪\\AppData\\Local\\Temp',
+    TMP: 'C:\\Users\\邵国豪\\AppData\\Local\\Temp',
+    'user.country': 'CN',
+    USERDOMAIN: 'GEMINI12138',
+    USERDOMAIN_ROAMINGPROFILE: 'GEMINI12138',
+    USERNAME: '邵国豪',
+    USERPROFILE: 'C:\\Users\\邵国豪',
+    VBOX_MSI_INSTALL_PATH: 'D:\\VirtualBox\\',
+    windir: 'C:\\WINDOWS',
+    WORKSPACE_DIR: 'C:\\Users\\邵国豪\\.hvigor\\project_caches\\42e739a7852cf12f60d1d0a621e238d5\\workspace',
+    ZES_ENABLE_SYSMAN: '1'
+  },
+  analyze: 'normal'
+}
+[2025-05-15T20:51:53.725] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-05-15T20:51:53.834] [DEBUG] debug-file - hvigorfile, binding system plugins { hapTasks: [Getter] }
+[2025-05-15T20:51:53.850] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2025-05-15T20:51:53.865] [DEBUG] debug-file - load to the disk finished
+[2025-05-15T20:51:53.890] [INFO] debug-file - Finished :entry:clean... after 5 ms 
+[2025-05-15T20:51:49.405] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--expose-gc
+[2025-05-15T20:51:53.931] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2025-05-15T20:51:53.923] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-05-15T20:51:53.725] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-05-15T20:51:53.850] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-05-15T20:51:53.870] [DEBUG] debug-file - Module app-account-manager Collected Dependency: 
+[2025-05-15T20:51:53.890] [DEBUG] debug-file - Executing task ::clean
+[2025-05-15T20:51:53.931] [DEBUG] debug-file - Clear worker 0.
+[2025-05-15T20:51:53.923] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-05-15T20:51:53.850] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2025-05-15T20:51:53.870] [DEBUG] debug-file - Module app-account-manager's total dependency: 0
+[2025-05-15T20:51:53.890] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-05-15T20:51:53.931] [DEBUG] debug-file - Worker 0 has been cleared.
+[2025-05-15T20:51:53.873] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-05-15T20:51:53.891] [DEBUG] debug-file - app-account-manager : clean cost memory 0.02783966064453125
+[2025-05-15T20:51:53.931] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-05-15T20:51:53.873] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-05-15T20:51:53.891] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 742 ms 
+[2025-05-15T20:51:53.931] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-05-15T20:51:53.877] [DEBUG] debug-file - Configuration phase cost:3 s 667 ms 
+[2025-05-15T20:51:53.931] [DEBUG] debug-file - Clear worker 1.
+[2025-05-15T20:51:53.891] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2025-05-15T20:51:53.931] [DEBUG] debug-file - Worker 1 has been cleared.
+[2025-05-15T20:51:53.891] [DEBUG] debug-file - Executing task :entry:init
+[2025-05-15T20:51:53.931] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-05-15T20:51:53.892] [DEBUG] debug-file - entry : init cost memory 0.224700927734375
+[2025-05-15T20:51:53.931] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-05-15T20:51:53.892] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 743 ms 
+[2025-05-15T20:51:53.932] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-05-15T20:51:53.892] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2025-05-15T20:51:53.940] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-05-15T20:51:53.892] [DEBUG] debug-file - Executing task ::init
+[2025-05-15T20:51:53.941] [DEBUG] debug-file - Current worker pool is terminated.
+[2025-05-15T20:51:53.892] [DEBUG] debug-file - app-account-manager : init cost memory 0.00894927978515625
+[2025-05-15T20:51:53.941] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-05-15T20:51:53.892] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 743 ms 
+[2025-05-15T20:51:53.892] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-05-15T20:52:25.604] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-05-15T20:52:25.709] [DEBUG] debug-file - env: daemon=true
+[2025-05-15T20:52:25.607] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2025-05-15T20:52:26.532] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [
+    'module=entry@default',
+    'product=default',
+    'requiredDeviceType=phone'
+  ],
+  mode: 'module',
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: [ 'assembleHap', '--analyze=normal' ],
+  env: {
+    ALLUSERSPROFILE: 'C:\\ProgramData',
+    APPDATA: 'C:\\Users\\邵国豪\\AppData\\Roaming',
+    ChocolateyInstall: 'C:\\ProgramData\\chocolatey',
+    ChocolateyLastPathUpdate: '133637180787624091',
+    classpath: '.;D:\\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\\bin',
+    CommonProgramFiles: 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files',
+    CommonProgramW6432: 'C:\\Program Files\\Common Files',
+    COMPUTERNAME: 'GEMINI12138',
+    ComSpec: 'C:\\WINDOWS\\system32\\cmd.exe',
+    config: '{"module":"entry@default","product":"default","requiredDeviceType":"phone"}',
+    CREATED_BY: 'deveco',
+    CSSCRIPT_INC: 'C:\\ProgramData\\cs-script\\inc',
+    'DevEco Studio': 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;',
+    DEVECO_SDK_HOME: 'D:/Huawei/DevEcoStudio/Studio/DevEco Studio/sdk',
+    DriverData: 'C:\\Windows\\System32\\Drivers\\DriverData',
+    EFC_3016_1592913036: '1',
+    EFC_3016_2283032206: '1',
+    GOPATH: 'D:\\Go_codes',
+    GOROOT: 'D:\\Go',
+    HDC_SERVER_PORT: '65037',
+    HOMEDRIVE: 'C:',
+    HOMEPATH: '\\Users\\邵国豪',
+    IDEA_INITIAL_DIRECTORY: 'D:\\Huawei\\devecoProjects\\app-account-manager',
+    IGCCSVC_DB: 'AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVcuafCUC2U+mne6omC9wbQQAAAACAAAAAAAQZgAAAAEAACAAAAANRySzdxoVUKKKnhpR7sHflzIWdn6LRmv6XZCvYqOXTwAAAAAOgAAAAAIAACAAAADA0z/4QOb7UvxqOGwN5/BuF+mVPlQ40+8u+Y7TEU2GlGAAAAAvWw9Bvm/947enB6ZIhLQUVtrsJOFhp5/Nh63qUcekNSZModvPYn8HPyNOfLmt80Y7612xUYeLSXwJsA0fTxjp+Poi8vDpkP++FgYq/FifaZPG+hHWM5BeZfnISBAEzclAAAAAAT7Y+ZStjA0drcw4khJaGy9R0saFGf98uO5lkTClAduHrlDWnSI0DEdqhVLXCGk1bJmP1fl3/hdGHJPiujFFmQ==',
+    'IntelliJ IDEA': 'D:\\IntelliJ IDEA 2024.1.1\\bin;',
+    INTEL_DEV_REDIST: 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\',
+    JAVA_HOME: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr',
+    LOCALAPPDATA: 'C:\\Users\\邵国豪\\AppData\\Local',
+    LOGONSERVER: '\\\\GEMINI12138',
+    MIC_LD_LIBRARY_PATH: 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic',
+    NODE_HOME: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\node',
+    NODE_PATH: 'C:\\Users\\邵国豪\\.hvigor\\project_caches\\42e739a7852cf12f60d1d0a621e238d5\\workspace\\node_modules',
+    'npm_config_auto-install-peers': 'false',
+    'npm_config_update-notifier': 'false',
+    NUMBER_OF_PROCESSORS: '16',
+    ohpmBin: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\ohpm\\bin\\ohpm.bat',
+    OLLAMA_HOST: ':11434',
+    OLLAMA_ORIGINS: '*',
+    OneDrive: 'C:\\Users\\邵国豪\\OneDrive',
+    OneDriveConsumer: 'C:\\Users\\邵国豪\\OneDrive',
+    OS: 'Windows_NT',
+    Path: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\node;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr\\bin;D:\\app\\proj_user\\product\\12.1.0\\dbhome_1\\bin;D:\\oracle\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle12c\\oracleuser\\product\\12.1.0\\dbhome_2\\bin;C:\\Python312\\Scripts\\;C:\\Python312\\;D:\\oracle12c\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle\\bin;D:\\23ai\\dbhomeFree\\bin;D:\\Oracle23ai\\dbhomeFree\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Bandizip\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:;Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files \\dotnet\\;C:\\ProgramData\\chocolatey\\bin;D:\\;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;D:;Go\\bin;C:\\Program Files\\mingw64\\x86_64-w64-mingw32\\bin;D:\\PHP\\php-8.3.11-Win32-vs16-x64;D:\\Git\\cmd;D:\\Tencent\\WechatWebDeveloperTool\\微信web开发者工具\\dll;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;D:\\node.js\\;C:\\Program Files\\dotnet\\;D:\\node.js\\node_modules\\corepack\\shims;D:\\Redis;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;D:\\vivo\\pcsuite\\;D:\\Java\\jdk1.7.0_80\\bin;D:\\Java\\jre7\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\邵国豪\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin;D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;;D:\\JetBrains\\PyCharm 2024.2.4\\bin;;D:\\mingw64\\bin;D:\\IntelliJ IDEA 2024.1.1\\bin;;C:\\Program Files\\mingw64\\bin;C:\\Users\\邵国豪\\.dotnet\\tools;C:\\Program Files\\dotnet;D:\\node.js;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;;C:\\Users\\邵国豪\\go\\bin;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Ollama;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;',
+    PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    pip: 'C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts',
+    pip3: 'C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts',
+    PROCESSOR_ARCHITECTURE: 'AMD64',
+    PROCESSOR_IDENTIFIER: 'Intel64 Family 6 Model 154 Stepping 3, GenuineIntel',
+    PROCESSOR_LEVEL: '6',
+    PROCESSOR_REVISION: '9a03',
+    ProgramData: 'C:\\ProgramData',
+    ProgramFiles: 'C:\\Program Files',
+    'ProgramFiles(x86)': 'C:\\Program Files (x86)',
+    ProgramW6432: 'C:\\Program Files',
+    PSModulePath: 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\PowerShell\\Modules\\',
+    PUBLIC: 'C:\\Users\\Public',
+    PyCharm: 'D:\\JetBrains\\PyCharm 2024.2.4\\bin;',
+    'PyCharm Community Edition': 'D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;',
+    QtMsBuild: 'C:\\Users\\邵国豪\\AppData\\Local\\QtMsBuild',
+    SESSIONNAME: 'Console',
+    SystemDrive: 'C:',
+    SystemRoot: 'C:\\WINDOWS',
+    TEMP: 'C:\\Users\\邵国豪\\AppData\\Local\\Temp',
+    TMP: 'C:\\Users\\邵国豪\\AppData\\Local\\Temp',
+    'user.country': 'CN',
+    USERDOMAIN: 'GEMINI12138',
+    USERDOMAIN_ROAMINGPROFILE: 'GEMINI12138',
+    USERNAME: '邵国豪',
+    USERPROFILE: 'C:\\Users\\邵国豪',
+    VBOX_MSI_INSTALL_PATH: 'D:\\VirtualBox\\',
+    windir: 'C:\\WINDOWS',
+    WORKSPACE_DIR: 'C:\\Users\\邵国豪\\.hvigor\\project_caches\\42e739a7852cf12f60d1d0a621e238d5\\workspace',
+    ZES_ENABLE_SYSMAN: '1'
+  }
+}
+[2025-05-15T20:52:26.522] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2025-05-15T20:52:26.536] [DEBUG] debug-file - java daemon started at port 45050 pid 27524
+[2025-05-15T20:52:26.571] [DEBUG] debug-file - session manager: set active socket. socketId=pMDci7E8WTRgSV-ZAAAB
+[2025-05-15T20:52:27.578] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-05-15T20:52:27.595] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-05-15T20:52:27.597] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2025-05-15T20:52:27.606] [DEBUG] debug-file - hvigorfile, resolving D:\Huawei\devecoProjects\app-account-manager\hvigorfile.ts
+[2025-05-15T20:52:30.060] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-05-15T20:52:30.060] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-05-15T20:52:30.200] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-05-15T20:52:30.200] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-05-15T20:52:30.200] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-05-15T20:52:30.200] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-05-15T20:52:30.204] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-05-15T20:52:30.206] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-05-15T20:52:30.210] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-05-15T20:52:30.213] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-05-15T20:52:30.217] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-05-15T20:52:30.241] [DEBUG] debug-file - Sdk init in 34 ms 
+[2025-05-15T20:52:30.256] [DEBUG] debug-file - Project task initialization takes 14 ms 
+[2025-05-15T20:52:30.256] [DEBUG] debug-file - hvigorfile, resolve finished D:\Huawei\devecoProjects\app-account-manager\hvigorfile.ts
+[2025-05-15T20:52:30.262] [DEBUG] debug-file - hvigorfile, resolving D:\Huawei\devecoProjects\app-account-manager\entry\hvigorfile.ts
+[2025-05-15T20:52:30.267] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-05-15T20:52:30.267] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-05-15T20:52:30.275] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-05-15T20:52:30.276] [DEBUG] debug-file - Target 'default' config: {}
+[2025-05-15T20:52:30.276] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2025-05-15T20:52:30.276] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-05-15T20:52:30.276] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2025-05-15T20:52:30.280] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2025-05-15T20:52:30.281] [DEBUG] debug-file - hvigorfile, resolve finished D:\Huawei\devecoProjects\app-account-manager\entry\hvigorfile.ts
+[2025-05-15T20:52:30.301] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 20 ms 
+[2025-05-15T20:52:30.303] [DEBUG] debug-file - project has submodules:entry
+[2025-05-15T20:52:30.305] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-05-15T20:52:30.314] [DEBUG] debug-file - load to the disk finished
+[2025-05-15T20:52:30.324] [DEBUG] debug-file - Module app-account-manager Collected Dependency: 
+[2025-05-15T20:52:30.324] [DEBUG] debug-file - Module app-account-manager's total dependency: 0
+[2025-05-15T20:52:30.331] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-05-15T20:52:30.331] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-05-15T20:52:30.341] [DEBUG] debug-file - Configuration phase cost:2 s 741 ms 
+[2025-05-15T20:52:30.344] [DEBUG] debug-file - Configuration task cost before running: 2 s 761 ms 
+[2025-05-15T20:52:30.348] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.348] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.348] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.355] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-05-15T20:52:30.362] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.362] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.362] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.470] [DEBUG] debug-file - current product is not Atomic service.
+[2025-05-15T20:52:30.470] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [
+  { JAVA_HOME: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr' },
+  {
+    CLASSPATH: '.;D:\\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\\bin'
+  }
+]
+[2025-05-15T20:52:30.470] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [
+  {
+    NODE_HOME: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\node'
+  }
+]
+[2025-05-15T20:52:30.471] [DEBUG] debug-file - entry : default@PreBuild cost memory 12.147544860839844
+[2025-05-15T20:52:30.471] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 888 ms 
+[2025-05-15T20:52:30.473] [INFO] debug-file - Finished :entry:default@PreBuild... after 116 ms 
+[2025-05-15T20:52:30.474] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.474] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.474] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.475] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2025-05-15T20:52:30.476] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2025-05-15T20:52:30.476] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.476] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.476] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.479] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.33652496337890625
+[2025-05-15T20:52:30.479] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 896 ms 
+[2025-05-15T20:52:30.479] [INFO] debug-file - Finished :entry:default@GenerateMetadata... after 4 ms 
+[2025-05-15T20:52:30.481] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.481] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.481] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.481] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2025-05-15T20:52:30.482] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.482] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.482] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.482] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.04688262939453125
+[2025-05-15T20:52:30.482] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 899 ms 
+[2025-05-15T20:52:30.482] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2025-05-15T20:52:30.484] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.484] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.484] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.485] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-05-15T20:52:30.485] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.485] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.485] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.486] [DEBUG] debug-file - Change app api release type with 'Release'
+[2025-05-15T20:52:30.486] [DEBUG] debug-file - Change app compile API version with '5.0.2.126'
+[2025-05-15T20:52:30.486] [DEBUG] debug-file - Change app target API version with '50002014'
+[2025-05-15T20:52:30.486] [DEBUG] debug-file - Change app minimum API version with '50000012'
+[2025-05-15T20:52:30.486] [DEBUG] debug-file - Use cli appEnvironment
+[2025-05-15T20:52:30.489] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.1911468505859375
+[2025-05-15T20:52:30.491] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 908 ms 
+[2025-05-15T20:52:30.492] [INFO] debug-file - Finished :entry:default@MergeProfile... after 6 ms 
+[2025-05-15T20:52:30.494] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.494] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.494] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.495] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-05-15T20:52:30.496] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-05-15T20:52:30.496] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.496] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.496] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.498] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.117889404296875
+[2025-05-15T20:52:30.498] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 916 ms 
+[2025-05-15T20:52:30.498] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 3 ms 
+[2025-05-15T20:52:30.500] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.500] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.500] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.501] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-05-15T20:52:30.501] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.501] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.501] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.501] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.0472259521484375
+[2025-05-15T20:52:30.501] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 919 ms 
+[2025-05-15T20:52:30.501] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-05-15T20:52:30.503] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.503] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.503] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.512] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-05-15T20:52:30.515] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-05-15T20:52:30.515] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory -14.03955078125
+[2025-05-15T20:52:30.515] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 933 ms 
+[2025-05-15T20:52:30.516] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 3 ms 
+[2025-05-15T20:52:30.517] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.517] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.517] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.519] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2025-05-15T20:52:30.520] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.520] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.520] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.520] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.07666778564453125
+[2025-05-15T20:52:30.521] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 938 ms 
+[2025-05-15T20:52:30.521] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 2 ms 
+[2025-05-15T20:52:30.523] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.523] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.523] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.524] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-05-15T20:52:30.524] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.524] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.524] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.524] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.0481719970703125
+[2025-05-15T20:52:30.524] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 941 ms 
+[2025-05-15T20:52:30.524] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2025-05-15T20:52:30.526] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.526] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.526] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.527] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2025-05-15T20:52:30.529] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.529] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.529] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.530] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: { bundleName: 'o***r', bundleType: 'app', version: [Object] },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'entry-default'
+    }
+  ]
+}
+[2025-05-15T20:52:30.532] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.15621185302734375
+[2025-05-15T20:52:30.532] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 949 ms 
+[2025-05-15T20:52:30.532] [INFO] debug-file - Finished :entry:default@MakePackInfo... after 5 ms 
+[2025-05-15T20:52:30.535] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.535] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.535] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.536] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2025-05-15T20:52:30.536] [DEBUG] debug-file - File: 'D:\Huawei\devecoProjects\app-account-manager\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2025-05-15T20:52:30.537] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2025-05-15T20:52:30.537] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.537] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.537] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.538] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.08881378173828125
+[2025-05-15T20:52:30.538] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 955 ms 
+[2025-05-15T20:52:30.538] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 2 ms 
+[2025-05-15T20:52:30.540] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.540] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.540] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.541] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-05-15T20:52:30.541] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.541] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.541] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.543] [DEBUG] debug-file - [
+  'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\node\\node.exe',
+  'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '12',
+  '--target-api-sub-version',
+  'beta1'
+]
+[2025-05-15T20:52:30.712] [DEBUG] debug-file - 12.0.2.0
+[2025-05-15T20:52:30.716] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 2.0627593994140625
+[2025-05-15T20:52:30.716] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 134 ms 
+[2025-05-15T20:52:30.716] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 176 ms 
+[2025-05-15T20:52:30.718] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.718] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.718] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.719] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-05-15T20:52:30.721] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.721] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.721] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.723] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.1299285888671875
+[2025-05-15T20:52:30.723] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 141 ms 
+[2025-05-15T20:52:30.724] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 5 ms 
+[2025-05-15T20:52:30.726] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.726] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.726] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.727] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2025-05-15T20:52:30.727] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.727] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.727] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.728] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.0703277587890625
+[2025-05-15T20:52:30.728] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 146 ms 
+[2025-05-15T20:52:30.729] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 2 ms 
+[2025-05-15T20:52:30.731] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.731] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.731] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.732] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2025-05-15T20:52:30.735] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2025-05-15T20:52:30.736] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.736] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.736] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.738] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.181396484375
+[2025-05-15T20:52:30.740] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 157 ms 
+[2025-05-15T20:52:30.741] [INFO] debug-file - Finished :entry:default@ProcessResource... after 6 ms 
+[2025-05-15T20:52:30.743] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.743] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.743] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.745] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-05-15T20:52:30.757] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.6176910400390625
+[2025-05-15T20:52:30.757] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 174 ms 
+[2025-05-15T20:52:30.761] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 12 ms 
+[2025-05-15T20:52:30.763] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.763] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.763] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.763] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2025-05-15T20:52:30.765] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.765] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.765] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.769] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-05-15T20:52:30.770] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-05-15T20:52:30.771] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-05-15T20:52:30.773] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-05-15T20:52:30.775] [DEBUG] debug-file - default@ProcessLibs work[0] is submitted.
+[2025-05-15T20:52:30.777] [DEBUG] debug-file - default@ProcessLibs work[0] is pushed to ready queue.
+[2025-05-15T20:52:30.777] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-05-15T20:52:30.778] [DEBUG] debug-file - Create  resident worker with id: 14.
+[2025-05-15T20:52:30.779] [DEBUG] debug-file - default@ProcessLibs work[0] has been dispatched to worker[14].
+[2025-05-15T20:52:30.779] [DEBUG] debug-file - default@ProcessLibs work[0] is dispatched.
+[2025-05-15T20:52:30.779] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.823883056640625
+[2025-05-15T20:52:30.788] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.788] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:30.788] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:30.789] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2025-05-15T20:52:30.801] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2025-05-15T20:52:30.816] [DEBUG] debug-file - Use tool [D:\Huawei\DevEcoStudio\Studio\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-l',
+  'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\intermediates\\res\\default\\resConfig.json'
+]
+[2025-05-15T20:52:30.824] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 227700736,
+  heapTotal: 158699520,
+  heapUsed: 133124784,
+  external: 3056260,
+  arrayBuffers: 291404
+} os memoryUsage :13.458255767822266
+[2025-05-15T20:52:30.952] [DEBUG] debug-file - 05-15 20:52:30.951 26320 24796 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+05-15 20:52:30.951 26320 24796 E C01400/ImageTranscoderUtils: ImageFilter IN D:\Huawei\devecoProjects\app-account-manager\AppScope\resources\base\media\app_icon.png
+
+[2025-05-15T20:52:30.952] [DEBUG] debug-file - 05-15 20:52:30.951 26320 24796 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = D:\Huawei\devecoProjects\app-account-manager\AppScope\resources\base\media\app_icon.png
+
+[2025-05-15T20:52:30.953] [DEBUG] debug-file - 05-15 20:52:30.953 26320 24796 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+05-15 20:52:30.953 26320 24796 E C01400/ImageTranscoderUtils: ImageFilter IN D:\Huawei\devecoProjects\app-account-manager\entry\src\main\resources\base\media\icon.png
+
+[2025-05-15T20:52:30.953] [DEBUG] debug-file - 05-15 20:52:30.953 26320 24796 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2025-05-15T20:52:30.953] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = D:\Huawei\devecoProjects\app-account-manager\entry\src\main\resources\base\media\icon.png
+
+[2025-05-15T20:52:30.958] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-05-15T20:52:31.018] [DEBUG] debug-file - astcenc customized so is not be opened when dlclose!
+
+[2025-05-15T20:52:31.025] [DEBUG] debug-file - entry : default@CompileResource cost memory 0.9639358520507812
+[2025-05-15T20:52:31.025] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 442 ms 
+[2025-05-15T20:52:31.026] [INFO] debug-file - Finished :entry:default@CompileResource... after 225 ms 
+[2025-05-15T20:52:31.028] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:31.028] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:31.028] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:31.031] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2025-05-15T20:52:31.049] [DEBUG] debug-file - build config:
+[2025-05-15T20:52:31.049] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'D:\\Huawei\\devecoProjects\\app-account-manager\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'D:\\Huawei\\devecoProjects\\app-account-manager',
+  compileSdkVersion: 14,
+  compatibleSdkVersion: 12,
+  compatibleSdkVersionStage: 'beta1',
+  bundleName: 'o***r',
+  etsLoaderVersion: '5.0.2.126',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: '47d84647df792bec4f06b79c3a34737d',
+  externalApiPaths: [
+    'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\sdk\\default\\hms\\ets'
+  ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 14,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: undefined,
+  buildDir: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build',
+  deviceTypes: [ 'phone' ],
+  useNormalizedOHMUrl: false,
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: false,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [ 'D:\\Huawei\\devecoProjects\\app-account-manager' ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  autoLazyImport: undefined,
+  aceModuleJsonPath: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\intermediates\\res\\default\\ark_module.json',
+  appResource: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: '099af64c3fc36dea99de062fa988d4a8',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:14:5.0.2.126:Release',
+  aceModuleRoot: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry',
+      belongProjectPath: 'D:\\Huawei\\devecoProjects\\app-account-manager'
+    },
+    'D:\\Huawei\\devecoProjects\\app-account-manager\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry',
+      belongProjectPath: 'D:\\Huawei\\devecoProjects\\app-account-manager'
+    },
+    'D:\\Huawei\\devecoProjects\\app-account-manager': {
+      moduleName: 'app-account-manager',
+      modulePkgPath: 'D:\\Huawei\\devecoProjects\\app-account-manager',
+      belongProjectPath: 'D:\\Huawei\\devecoProjects\\app-account-manager'
+    }
+  },
+  pkgJsonFileHash: 'b71173684cc18a0a29350f83d0c0b836',
+  allModulePaths: [ 'D:\\Huawei\\devecoProjects\\app-account-manager\\entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: undefined,
+    mockConfigKey2ModuleInfo: {}
+  },
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2025-05-15T20:52:31.049] [DEBUG] debug-file - Compile arkts with external api path: D:\Huawei\DevEcoStudio\Studio\DevEco Studio\sdk\default\hms\ets
+[2025-05-15T20:52:31.051] [DEBUG] debug-file - default@CompileArkTS work[1] is submitted.
+[2025-05-15T20:52:31.052] [DEBUG] debug-file - default@CompileArkTS work[1] is pushed to ready queue.
+[2025-05-15T20:52:31.052] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.052] [DEBUG] debug-file - A work dispatched to worker[14] failed because of worker busy.
+[2025-05-15T20:52:31.052] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.052] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.052] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.052] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.052] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.052] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.052] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.052] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.053] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.053] [DEBUG] debug-file - Create  resident worker with id: 4.
+[2025-05-15T20:52:31.054] [DEBUG] debug-file - default@CompileArkTS work[1] has been dispatched to worker[4].
+[2025-05-15T20:52:31.054] [DEBUG] debug-file - default@CompileArkTS work[1] is dispatched.
+[2025-05-15T20:52:31.054] [DEBUG] debug-file - CopyResources startTime: 35706811482600
+[2025-05-15T20:52:31.054] [DEBUG] debug-file - default@CompileArkTS work[2] is submitted.
+[2025-05-15T20:52:31.055] [DEBUG] debug-file - default@CompileArkTS work[2] is pushed to ready queue.
+[2025-05-15T20:52:31.055] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.055] [DEBUG] debug-file - A work dispatched to worker[14] failed because of worker busy.
+[2025-05-15T20:52:31.055] [DEBUG] debug-file - Create  resident worker with id: 13.
+[2025-05-15T20:52:31.056] [DEBUG] debug-file - default@CompileArkTS work[2] has been dispatched to worker[13].
+[2025-05-15T20:52:31.056] [DEBUG] debug-file - default@CompileArkTS work[2] is dispatched.
+[2025-05-15T20:52:31.056] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.5087051391601562
+[2025-05-15T20:52:31.058] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:31.058] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:31.058] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:31.060] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2025-05-15T20:52:31.063] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.11419677734375
+[2025-05-15T20:52:31.063] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 480 ms 
+[2025-05-15T20:52:31.063] [INFO] debug-file - Finished :entry:default@BuildJS... after 3 ms 
+[2025-05-15T20:52:31.892] [DEBUG] debug-file - worker[13] has one work done.
+[2025-05-15T20:52:31.892] [DEBUG] debug-file - CopyResources is end, endTime: 35707649369400
+[2025-05-15T20:52:31.892] [DEBUG] debug-file - default@CompileArkTS work[2] done.
+[2025-05-15T20:52:31.892] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.911] [DEBUG] debug-file - worker[14] has one work done.
+[2025-05-15T20:52:31.912] [DEBUG] debug-file - default@ProcessLibs work[0] done.
+[2025-05-15T20:52:31.912] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.913] [INFO] debug-file - Finished :entry:default@ProcessLibs... after 18 ms 
+[2025-05-15T20:52:31.915] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:31.915] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:31.915] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:31.917] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2025-05-15T20:52:31.917] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2025-05-15T20:52:31.917] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:31.917] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:31.917] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:31.918] [DEBUG] debug-file - default@DoNativeStrip work[3] is submitted.
+[2025-05-15T20:52:31.918] [DEBUG] debug-file - default@DoNativeStrip work[3] is pushed to ready queue.
+[2025-05-15T20:52:31.918] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.918] [DEBUG] debug-file - default@DoNativeStrip work[3] has been dispatched to worker[14].
+[2025-05-15T20:52:31.918] [DEBUG] debug-file - default@DoNativeStrip work[3] is dispatched.
+[2025-05-15T20:52:31.918] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.44593048095703125
+[2025-05-15T20:52:31.931] [DEBUG] debug-file - worker[14] has one work done.
+[2025-05-15T20:52:31.932] [DEBUG] debug-file - default@DoNativeStrip work[3] done.
+[2025-05-15T20:52:31.932] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.932] [INFO] debug-file - Finished :entry:default@DoNativeStrip... after 9 ms 
+[2025-05-15T20:52:31.933] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:31.934] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:31.934] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:31.935] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2025-05-15T20:52:31.935] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2025-05-15T20:52:31.936] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:31.936] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:31.936] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:31.936] [DEBUG] debug-file - default@CacheNativeLibs work[4] is submitted.
+[2025-05-15T20:52:31.936] [DEBUG] debug-file - default@CacheNativeLibs work[4] is pushed to ready queue.
+[2025-05-15T20:52:31.936] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-05-15T20:52:31.936] [DEBUG] debug-file - default@CacheNativeLibs work[4] has been dispatched to worker[14].
+[2025-05-15T20:52:31.937] [DEBUG] debug-file - default@CacheNativeLibs work[4] is dispatched.
+[2025-05-15T20:52:31.937] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.1907958984375
+[2025-05-15T20:52:33.035] [DEBUG] debug-file - worker[14] has one work done.
+[2025-05-15T20:52:33.035] [DEBUG] debug-file - default@CacheNativeLibs work[4] done.
+[2025-05-15T20:52:33.035] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-05-15T20:52:33.035] [INFO] debug-file - Finished :entry:default@CacheNativeLibs... after 9 ms 
+[2025-05-15T20:52:39.738] [INFO] debug-file - [33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Index.ets:24:7
+ Property 'title' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Index.ets:24:7
+ Property 'flag' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Login.ets:27:7
+ Property 'title' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Login.ets:27:7
+ Property 'flag' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Login.ets:27:7
+ Property 'url' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Register.ets:28:9
+ Property 'title' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Register.ets:28:9
+ Property 'flag' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Register.ets:28:9
+ Property 'url' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Register.ets:28:9
+ Property 'bundleName' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Register.ets:30:9
+ Property 'bundleName' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Account.ets:30:7
+ Property 'title' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Account.ets:30:7
+ Property 'flag' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Modify.ets:31:9
+ Property 'title' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Modify.ets:31:9
+ Property 'flag' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Modify.ets:31:9
+ Property 'url' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Modify.ets:31:9
+ Property 'username' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Modify.ets:31:9
+ Property 'bundleName' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Modify.ets:31:9
+ Property 'email' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: D:/Huawei/devecoProjects/app-account-manager/entry/src/main/ets/pages/Modify.ets:31:9
+ Property 'signature' is private and can not be initialized through the component constructor.[39m
+
+[2025-05-15T20:52:39.738] [DEBUG] debug-file - Ark compile task finished.finished time is 35715495740600
+[2025-05-15T20:52:39.739] [DEBUG] debug-file - worker[4] has one work done.
+[2025-05-15T20:52:39.743] [DEBUG] debug-file - default@CompileArkTS work[1] done.
+[2025-05-15T20:52:39.743] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2025-05-15T20:52:39.745] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 6 s 582 ms 
+[2025-05-15T20:52:39.746] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:39.746] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:39.746] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:39.747] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2025-05-15T20:52:39.747] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2025-05-15T20:52:39.747] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:39.747] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:39.748] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:39.749] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.0930328369140625
+[2025-05-15T20:52:39.749] [DEBUG] debug-file - runTaskFromQueue task cost before running: 12 s 166 ms 
+[2025-05-15T20:52:39.749] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 2 ms 
+[2025-05-15T20:52:39.751] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:39.751] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:39.751] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:39.755] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2025-05-15T20:52:39.758] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:39.758] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:39.758] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:39.760] [DEBUG] debug-file - Use tool [D:\Huawei\DevEcoStudio\Studio\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'D:\\Huawei\\devecoProjects\\app-account-manager\\entry\\build\\default\\intermediates\\loader_out\\default\\ets'
+]
+[2025-05-15T20:52:39.761] [DEBUG] debug-file - default@PackageHap work[5] is submitted.
+[2025-05-15T20:52:39.762] [DEBUG] debug-file - default@PackageHap work[5] is pushed to ready queue.
+[2025-05-15T20:52:39.762] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-05-15T20:52:39.762] [DEBUG] debug-file - default@PackageHap work[5] has been dispatched to worker[14].
+[2025-05-15T20:52:39.762] [DEBUG] debug-file - default@PackageHap work[5] is dispatched.
+[2025-05-15T20:52:39.765] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.8754196166992188
+[2025-05-15T20:52:39.765] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 824909824,
+  heapTotal: 97423360,
+  heapUsed: 90353256,
+  external: 4032172,
+  arrayBuffers: 67632
+} os memoryUsage :14.033878326416016
+[2025-05-15T20:52:40.259] [DEBUG] debug-file - worker[14] has one work done.
+[2025-05-15T20:52:40.260] [DEBUG] debug-file - default@PackageHap work[5] done.
+[2025-05-15T20:52:40.260] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-05-15T20:52:40.263] [INFO] debug-file - Finished :entry:default@PackageHap... after 504 ms 
+[2025-05-15T20:52:40.266] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:40.266] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:40.266] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:40.269] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2025-05-15T20:52:40.272] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in D:\Huawei\devecoProjects\app-account-manager\build-profile.json5.
+[2025-05-15T20:52:40.272] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:40.272] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:40.272] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:40.273] [DEBUG] debug-file - entry : default@SignHap cost memory 0.0909423828125
+[2025-05-15T20:52:40.273] [DEBUG] debug-file - runTaskFromQueue task cost before running: 12 s 691 ms 
+[2025-05-15T20:52:40.274] [INFO] debug-file - Finished :entry:default@SignHap... after 4 ms 
+[2025-05-15T20:52:40.276] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:40.276] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:40.276] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:40.277] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2025-05-15T20:52:40.281] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:40.281] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-05-15T20:52:40.281] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2025-05-15T20:52:40.281] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.2068023681640625
+[2025-05-15T20:52:40.281] [DEBUG] debug-file - runTaskFromQueue task cost before running: 12 s 698 ms 
+[2025-05-15T20:52:40.281] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 5 ms 
+[2025-05-15T20:52:40.282] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2025-05-15T20:52:40.282] [DEBUG] debug-file - entry : assembleHap cost memory 0.011932373046875
+[2025-05-15T20:52:40.282] [DEBUG] debug-file - runTaskFromQueue task cost before running: 12 s 700 ms 
+[2025-05-15T20:52:40.283] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2025-05-15T20:52:40.292] [DEBUG] debug-file - BUILD SUCCESSFUL in 12 s 709 ms 
+[2025-05-15T20:52:40.293] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\Huawei\devecoProjects\app-account-manager\AppScope\app.json5 cache by regenerate.
+[2025-05-15T20:52:40.293] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\Huawei\devecoProjects\app-account-manager\entry\src\main\module.json5 cache by regenerate.
+[2025-05-15T20:52:40.294] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\Huawei\devecoProjects\app-account-manager\build-profile.json5 cache by regenerate.
+[2025-05-15T20:52:40.294] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\Huawei\devecoProjects\app-account-manager\entry\build-profile.json5 cache by regenerate.
+[2025-05-15T20:52:40.294] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\Huawei\devecoProjects\app-account-manager\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2025-05-15T20:52:40.295] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\Huawei\devecoProjects\app-account-manager\hvigor\hvigor-config.json5 cache by regenerate.
+[2025-05-15T20:52:40.295] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\Huawei\devecoProjects\app-account-manager\entry\oh-package.json5 cache by regenerate.
+[2025-05-15T20:52:40.295] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\Huawei\devecoProjects\app-account-manager\oh-package.json5 cache by regenerate.
+[2025-05-15T20:52:40.295] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:3 ms .
+[2025-05-15T20:52:40.295] [DEBUG] debug-file - Update task entry:default@GenerateMetadata input file:D:\Huawei\devecoProjects\app-account-manager\entry\src\main\module.json5 cache by regenerate.
+[2025-05-15T20:52:40.296] [DEBUG] debug-file - Update task entry:default@GenerateMetadata output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\hap_metadata\default\output_metadata.json cache.
+[2025-05-15T20:52:40.296] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata post-execution cost:1 ms .
+[2025-05-15T20:52:40.296] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\Huawei\devecoProjects\app-account-manager\AppScope\app.json5 cache by regenerate.
+[2025-05-15T20:52:40.297] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\Huawei\devecoProjects\app-account-manager\build-profile.json5 cache by regenerate.
+[2025-05-15T20:52:40.297] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\Huawei\devecoProjects\app-account-manager\entry\src\main\module.json5 cache by regenerate.
+[2025-05-15T20:52:40.297] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\merge_profile\default\module.json cache.
+[2025-05-15T20:52:40.297] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:2 ms .
+[2025-05-15T20:52:40.297] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\Huawei\devecoProjects\app-account-manager\AppScope\app.json5 cache by regenerate.
+[2025-05-15T20:52:40.298] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\Huawei\devecoProjects\app-account-manager\build-profile.json5 cache by regenerate.
+[2025-05-15T20:52:40.298] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\generated\profile\default\BuildProfile.ets cache.
+[2025-05-15T20:52:40.298] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:1 ms .
+[2025-05-15T20:52:40.298] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2025-05-15T20:52:40.298] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-05-15T20:52:40.299] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:D:\Huawei\devecoProjects\app-account-manager\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2025-05-15T20:52:40.299] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-05-15T20:52:40.299] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\Huawei\devecoProjects\app-account-manager\AppScope\app.json5 cache by regenerate.
+[2025-05-15T20:52:40.299] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\Huawei\devecoProjects\app-account-manager\entry\src\main\module.json5 cache by regenerate.
+[2025-05-15T20:52:40.299] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\Huawei\devecoProjects\app-account-manager\build-profile.json5 cache by regenerate.
+[2025-05-15T20:52:40.300] [DEBUG] debug-file - Update task entry:default@MakePackInfo output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\outputs\default\pack.info cache.
+[2025-05-15T20:52:40.300] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo post-execution cost:2 ms .
+[2025-05-15T20:52:40.300] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\Huawei\DevEcoStudio\Studio\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2025-05-15T20:52:40.300] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\Huawei\DevEcoStudio\Studio\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2025-05-15T20:52:40.301] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2025-05-15T20:52:40.302] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:2 ms .
+[2025-05-15T20:52:40.302] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2025-05-15T20:52:40.302] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\process_profile\default\module.json cache.
+[2025-05-15T20:52:40.302] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2025-05-15T20:52:40.303] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\Huawei\devecoProjects\app-account-manager\entry\oh-package.json5 cache by regenerate.
+[2025-05-15T20:52:40.303] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\Huawei\devecoProjects\app-account-manager\oh-package.json5 cache by regenerate.
+[2025-05-15T20:52:40.303] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\Huawei\devecoProjects\app-account-manager\entry\src\main\module.json5 cache by regenerate.
+[2025-05-15T20:52:40.303] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\router_map\default\temp-router-map.json cache.
+[2025-05-15T20:52:40.304] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\router_map\default\loader-router-map.json cache.
+[2025-05-15T20:52:40.304] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:2 ms .
+[2025-05-15T20:52:40.304] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\res\default\resConfig.json cache.
+[2025-05-15T20:52:40.304] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\res\default\opt-compression.json cache.
+[2025-05-15T20:52:40.304] [DEBUG] debug-file - Incremental task entry:default@ProcessResource post-execution cost:1 ms .
+[2025-05-15T20:52:40.306] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\router_map\default\temp-router-map.json cache by regenerate.
+[2025-05-15T20:52:40.306] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\loader\default\loader.json cache.
+[2025-05-15T20:52:40.306] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:2 ms .
+[2025-05-15T20:52:40.306] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:D:\Huawei\devecoProjects\app-account-manager\build-profile.json5 cache by regenerate.
+[2025-05-15T20:52:40.306] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:D:\Huawei\devecoProjects\app-account-manager\entry\build-profile.json5 cache by regenerate.
+[2025-05-15T20:52:40.307] [DEBUG] debug-file - Update task entry:default@ProcessLibs output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\libs\default cache.
+[2025-05-15T20:52:40.307] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs post-execution cost:1 ms .
+[2025-05-15T20:52:40.307] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\Huawei\devecoProjects\app-account-manager\entry\src\main\resources cache by regenerate.
+[2025-05-15T20:52:40.311] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\Huawei\devecoProjects\app-account-manager\AppScope\resources cache by regenerate.
+[2025-05-15T20:52:40.313] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2025-05-15T20:52:40.313] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\res\default\resConfig.json cache by regenerate.
+[2025-05-15T20:52:40.314] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\res\default cache.
+[2025-05-15T20:52:40.338] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\generated\r\default\ResourceTable.h cache.
+[2025-05-15T20:52:40.342] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\generated\r\default cache.
+[2025-05-15T20:52:40.343] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:36 ms .
+[2025-05-15T20:52:40.344] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\loader\default cache by regenerate.
+[2025-05-15T20:52:40.345] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-05-15T20:52:40.345] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2025-05-15T20:52:40.345] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-05-15T20:52:40.345] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\Huawei\devecoProjects\app-account-manager\entry\src\main\ets cache by regenerate.
+[2025-05-15T20:52:40.348] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-05-15T20:52:40.348] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\loader_out\default\ets cache.
+[2025-05-15T20:52:40.349] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:6 ms .
+[2025-05-15T20:52:40.350] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\loader\default cache by regenerate.
+[2025-05-15T20:52:40.351] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-05-15T20:52:40.351] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2025-05-15T20:52:40.351] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-05-15T20:52:40.352] [DEBUG] debug-file - Update task entry:default@BuildJS output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\loader_out\default\js cache.
+[2025-05-15T20:52:40.352] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:3 ms .
+[2025-05-15T20:52:40.352] [DEBUG] debug-file - Update task entry:default@DoNativeStrip input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\libs\default cache by regenerate.
+[2025-05-15T20:52:40.352] [DEBUG] debug-file - Update task entry:default@DoNativeStrip output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\stripped_native_libs\default cache.
+[2025-05-15T20:52:40.352] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip post-execution cost:1 ms .
+[2025-05-15T20:52:40.353] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2025-05-15T20:52:40.353] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\libs\default cache by regenerate.
+[2025-05-15T20:52:40.353] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\patch\default\base_native_libs.json cache.
+[2025-05-15T20:52:40.354] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs post-execution cost:2 ms .
+[2025-05-15T20:52:40.354] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2025-05-15T20:52:40.354] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\package\default\module.json cache.
+[2025-05-15T20:52:40.354] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2025-05-15T20:52:40.355] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2025-05-15T20:52:40.355] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2025-05-15T20:52:40.356] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2025-05-15T20:52:40.358] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2025-05-15T20:52:40.358] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2025-05-15T20:52:40.358] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\loader_out\default\ets cache by regenerate.
+[2025-05-15T20:52:40.359] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2025-05-15T20:52:40.359] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-05-15T20:52:40.360] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2025-05-15T20:52:40.360] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\source_map\default\sourceMaps.map cache.
+[2025-05-15T20:52:40.360] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2025-05-15T20:52:40.360] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:6 ms .
+[2025-05-15T20:52:40.360] [DEBUG] debug-file - Update task entry:default@SignHap input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\outputs\default\entry-default-unsigned.hap cache by regenerate.
+[2025-05-15T20:52:40.361] [DEBUG] debug-file - Update task entry:default@SignHap output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2025-05-15T20:52:40.361] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2025-05-15T20:52:40.362] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2025-05-15T20:52:40.363] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\intermediates\libs\default cache by regenerate.
+[2025-05-15T20:52:40.363] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:D:\Huawei\devecoProjects\app-account-manager\entry\build\default\outputs\default\symbol cache.
+[2025-05-15T20:52:40.363] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:3 ms .
+[2025-05-15T20:52:40.387] [DEBUG] debug-file - Cleanup worker 0.
+[2025-05-15T20:52:40.387] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-05-15T20:52:40.387] [DEBUG] debug-file - Current idle worker size: 4.
+[2025-05-15T20:52:40.387] [DEBUG] debug-file - Current resident worker size: 5.
+[2025-05-15T20:52:40.387] [DEBUG] debug-file - Cleanup worker 1.
+[2025-05-15T20:52:40.387] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-05-15T20:52:40.387] [DEBUG] debug-file - Current idle worker size: 3.
+[2025-05-15T20:52:40.387] [DEBUG] debug-file - Current resident worker size: 5.
+[2025-05-15T20:52:40.387] [DEBUG] debug-file - Cleanup worker 13.
+[2025-05-15T20:52:40.387] [DEBUG] debug-file - Worker 13 has been cleaned up.
+[2025-05-15T20:52:40.388] [DEBUG] debug-file - Current idle worker size: 2.
+[2025-05-15T20:52:40.388] [DEBUG] debug-file - Current resident worker size: 5.
+[2025-05-15T20:52:40.388] [DEBUG] debug-file - Cleanup worker 14.
+[2025-05-15T20:52:40.388] [DEBUG] debug-file - Worker 14 has been cleaned up.
+[2025-05-15T20:52:40.388] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-05-15T20:52:40.388] [DEBUG] debug-file - Current resident worker size: 5.
+[2025-05-15T20:52:40.389] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-05-15T20:52:40.391] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-05-15T20:52:40.391] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-05-15T20:52:40.390] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2025-05-15T20:52:40.392] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-05-15T20:52:40.392] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-05-15T20:52:40.392] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2025-05-15T20:52:40.401] [DEBUG] debug-file - worker[13] exits with exit code 1.
+[2025-05-15T20:52:40.404] [DEBUG] debug-file - worker[14] exits with exit code 1.
+[2025-05-29T13:55:31.333] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-05-29T13:55:32.006] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-05-29T13:55:32.047] [DEBUG] debug-file - hvigorfile, resolving C:\Users\邵国豪\Desktop\鸿蒙开发实验\harmony-lab-code\app-account-manager\hvigorfile.ts
+[2025-05-29T13:55:35.216] [DEBUG] debug-file - hvigorfile, require result:  { appTasks: [Getter] }
+[2025-05-29T13:55:31.335] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2025-05-29T13:55:35.369] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2025-05-29T13:55:35.385] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: false,
+  _: [],
+  env: {
+    ALLUSERSPROFILE: 'C:\\ProgramData',
+    APPDATA: 'C:\\Users\\邵国豪\\AppData\\Roaming',
+    ChocolateyInstall: 'C:\\ProgramData\\chocolatey',
+    ChocolateyLastPathUpdate: '133637180787624091',
+    classpath: '.;D:\\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\\bin',
+    CommonProgramFiles: 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files',
+    CommonProgramW6432: 'C:\\Program Files\\Common Files',
+    COMPUTERNAME: 'GEMINI12138',
+    ComSpec: 'C:\\WINDOWS\\system32\\cmd.exe',
+    config: '{"product":"default"}',
+    CREATED_BY: 'deveco',
+    CSSCRIPT_INC: 'C:\\ProgramData\\cs-script\\inc',
+    'DevEco Studio': 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;',
+    DEVECO_SDK_HOME: 'D:/Huawei/DevEcoStudio/Studio/DevEco Studio/sdk',
+    DriverData: 'C:\\Windows\\System32\\Drivers\\DriverData',
+    EFC_10932_1262719628: '1',
+    EFC_10932_1592913036: '1',
+    EFC_10932_2283032206: '1',
+    EFC_10932_2775293581: '1',
+    EFC_10932_3789132940: '1',
+    FPS_BROWSER_APP_PROFILE_STRING: 'Internet Explorer',
+    FPS_BROWSER_USER_PROFILE_STRING: 'Default',
+    GOPATH: 'D:\\Go_codes',
+    GOROOT: 'D:\\Go',
+    HDC_SERVER_PORT: '65037',
+    HOMEDRIVE: 'C:',
+    HOMEPATH: '\\Users\\邵国豪',
+    IDEA_INITIAL_DIRECTORY: 'C:\\Users\\邵国豪\\Desktop\\鸿蒙开发实验\\harmony-lab-code\\app-account-manager',
+    IGCCSVC_DB: 'AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVcuafCUC2U+mne6omC9wbQQAAAACAAAAAAAQZgAAAAEAACAAAAANRySzdxoVUKKKnhpR7sHflzIWdn6LRmv6XZCvYqOXTwAAAAAOgAAAAAIAACAAAADA0z/4QOb7UvxqOGwN5/BuF+mVPlQ40+8u+Y7TEU2GlGAAAAAvWw9Bvm/947enB6ZIhLQUVtrsJOFhp5/Nh63qUcekNSZModvPYn8HPyNOfLmt80Y7612xUYeLSXwJsA0fTxjp+Poi8vDpkP++FgYq/FifaZPG+hHWM5BeZfnISBAEzclAAAAAAT7Y+ZStjA0drcw4khJaGy9R0saFGf98uO5lkTClAduHrlDWnSI0DEdqhVLXCGk1bJmP1fl3/hdGHJPiujFFmQ==',
+    'IntelliJ IDEA': 'D:\\IntelliJ IDEA 2024.1.1\\bin;',
+    INTEL_DEV_REDIST: 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\',
+    JAVA_HOME: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr',
+    LOCALAPPDATA: 'C:\\Users\\邵国豪\\AppData\\Local',
+    LOGONSERVER: '\\\\GEMINI12138',
+    MIC_LD_LIBRARY_PATH: 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic',
+    NODE_HOME: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\node',
+    NODE_PATH: 'C:\\Users\\邵国豪\\.hvigor\\project_caches\\59d403e7099f832439a7e0f1647b5551\\workspace\\node_modules',
+    NO_UPDATE_NOTIFIER: 'true',
+    'npm_config_@ohos:registry': 'https://repo.harmonyos.com/npm/',
+    'npm_config_auto-install-peers': 'false',
+    'npm_config_strict-ssl': '',
+    'npm_config_update-notifier': 'false',
+    NUMBER_OF_PROCESSORS: '16',
+    ohpmBin: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\ohpm\\bin\\ohpm.bat',
+    OLLAMA_HOST: ':11434',
+    OLLAMA_ORIGINS: '*',
+    OneDrive: 'C:\\Users\\邵国豪\\OneDrive',
+    OneDriveConsumer: 'C:\\Users\\邵国豪\\OneDrive',
+    OS: 'Windows_NT',
+    Path: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr\\bin;D:/Huawei/DevEcoStudio/Studio/DevEco Studio/tools/node;D:\\app\\proj_user\\product\\12.1.0\\dbhome_1\\bin;D:\\oracle\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle12c\\oracleuser\\product\\12.1.0\\dbhome_2\\bin;C:\\Python312\\Scripts\\;C:\\Python312\\;D:\\oracle12c\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle\\bin;D:\\23ai\\dbhomeFree\\bin;D:\\Oracle23ai\\dbhomeFree\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Bandizip\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:;Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files \\dotnet\\;C:\\ProgramData\\chocolatey\\bin;D:\\;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;D:;Go\\bin;C:\\Program Files\\mingw64\\x86_64-w64-mingw32\\bin;D:\\PHP\\php-8.3.11-Win32-vs16-x64;D:\\Git\\cmd;D:\\Tencent\\WechatWebDeveloperTool\\微信web开发者工具\\dll;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;D:\\node.js\\;C:\\Program Files\\dotnet\\;D:\\node.js\\node_modules\\corepack\\shims;D:\\Redis;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;D:\\vivo\\pcsuite\\;D:\\Java\\jdk1.7.0_80\\bin;D:\\Java\\jre7\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\邵国豪\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin;D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;;D:\\JetBrains\\PyCharm 2024.2.4\\bin;;D:\\mingw64\\bin;D:\\IntelliJ IDEA 2024.1.1\\bin;;C:\\Program Files\\mingw64\\bin;C:\\Users\\邵国豪\\.dotnet\\tools;C:\\Program Files\\dotnet;D:\\node.js;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;;C:\\Users\\邵国豪\\go\\bin;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Ollama;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\node;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr\\bin;D:\\app\\proj_user\\product\\12.1.0\\dbhome_1\\bin;D:\\oracle\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle12c\\oracleuser\\product\\12.1.0\\dbhome_2\\bin;C:\\Python312\\Scripts\\;C:\\Python312\\;D:\\oracle12c\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle\\bin;D:\\23ai\\dbhomeFree\\bin;D:\\Oracle23ai\\dbhomeFree\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Bandizip\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:;Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files \\dotnet\\;C:\\ProgramData\\chocolatey\\bin;D:\\;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;D:;Go\\bin;C:\\Program Files\\mingw64\\x86_64-w64-mingw32\\bin;D:\\PHP\\php-8.3.11-Win32-vs16-x64;D:\\Git\\cmd;D:\\Tencent\\WechatWebDeveloperTool\\微信web开发者工具\\dll;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;D:\\node.js\\;C:\\Program Files\\dotnet\\;D:\\node.js\\node_modules\\corepack\\shims;D:\\Redis;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;D:\\vivo\\pcsuite\\;D:\\Java\\jdk1.7.0_80\\bin;D:\\Java\\jre7\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\邵国豪\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin;D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;;D:\\JetBrains\\PyCharm 2024.2.4\\bin;;D:\\mingw64\\bin;D:\\IntelliJ IDEA 2024.1.1\\bin;;C:\\Program Files\\mingw64\\bin;C:\\Users\\邵国豪\\.dotnet\\tools;C:\\Program Files\\dotnet;D:\\node.js;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;;C:\\Users\\邵国豪\\go\\bin;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Ollama;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;',
+    PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    pip: 'C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts',
+    pip3: 'C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts',
+    PROCESSOR_ARCHITECTURE: 'AMD64',
+    PROCESSOR_IDENTIFIER: 'Intel64 Family 6 Model 154 Stepping 3, GenuineIntel',
+    PROCESSOR_LEVEL: '6',
+    PROCESSOR_REVISION: '9a03',
+    ProgramData: 'C:\\ProgramData',
+    ProgramFiles: 'C:\\Program Files',
+    'ProgramFiles(x86)': 'C:\\Program Files (x86)',
+    ProgramW6432: 'C:\\Program Files',
+    PSModulePath: 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\PowerShell\\Modules\\',
+    PUBLIC: 'C:\\Users\\Public',
+    PyCharm: 'D:\\JetBrains\\PyCharm 2024.2.4\\bin;',
+    'PyCharm Community Edition': 'D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;',
+    QtMsBuild: 'C:\\Users\\邵国豪\\AppData\\Local\\QtMsBuild',
+    SESSIONNAME: 'Console',
+    SystemDrive: 'C:',
+    SystemRoot: 'C:\\WINDOWS',
+    TEMP: 'C:\\Users\\邵国豪\\AppData\\Local\\Temp',
+    TMP: 'C:\\Users\\邵国豪\\AppData\\Local\\Temp',
+    'user.country': 'CN',
+    USERDOMAIN: 'GEMINI12138',
+    USERDOMAIN_ROAMINGPROFILE: 'GEMINI12138',
+    USERNAME: '邵国豪',
+    USERPROFILE: 'C:\\Users\\邵国豪',
+    VBOX_MSI_INSTALL_PATH: 'D:\\VirtualBox\\',
+    windir: 'C:\\WINDOWS',
+    WORKSPACE_DIR: 'C:\\Users\\邵国豪\\.hvigor\\project_caches\\59d403e7099f832439a7e0f1647b5551\\workspace',
+    ZES_ENABLE_SYSMAN: '1'
+  },
+  analyze: 'normal'
+}
+[2025-05-29T13:55:32.017] [DEBUG] debug-file - Cache service initialization finished in 10 ms 
+[2025-05-29T13:55:35.410] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-05-29T13:55:35.216] [DEBUG] debug-file - hvigorfile, binding system plugins { appTasks: [Getter] }
+[2025-05-29T13:55:31.338] [DEBUG] debug-file - env: daemon=false
+[2025-05-29T13:55:35.372] [DEBUG] debug-file - ERROR: stacktrace = Error: Invalid project path.
+	 Detail: Please move the project to a valid path
+    at OhosLogger.errorMessageExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printAllExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1274)
+    at ProjectInspection.exitOnError (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\inspection\project-inspection.js:1:672)
+    at AppPlugin.doProjectInspection (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\common\abstract-project-plugin.js:1:1585)
+    at PluginFactory.getAppPlugin (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js:1:2159)
+    at appTasks (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js:1:593)
+    at bindSystemPlugins (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:6339)
+    at evaluateNodeVigorFile (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:8460)
+    at evalProject (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:3495)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-05-29T13:55:35.386] [WARN] debug-file - BUILD FAILED in 3 s 403 ms 
+[2025-05-29T13:55:35.414] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-05-29T13:55:31.338] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--expose-gc
+[2025-05-29T13:55:35.372] [ERROR] debug-file - Error: Invalid project path.
+	 Detail: Please move the project to a valid path
+    at OhosLogger.errorMessageExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printAllExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1274)
+    at ProjectInspection.exitOnError (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\inspection\project-inspection.js:1:672)
+    at AppPlugin.doProjectInspection (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\common\abstract-project-plugin.js:1:1585)
+    at PluginFactory.getAppPlugin (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js:1:2159)
+    at appTasks (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js:1:593)
+    at bindSystemPlugins (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:6339)
+    at evaluateNodeVigorFile (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:8460)
+    at evalProject (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:3495)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-05-29T13:55:35.405] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-05-29T13:55:35.415] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2025-05-29T13:55:35.405] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-05-29T13:55:35.416] [DEBUG] debug-file - Clear worker 0.
+[2025-05-29T13:55:35.416] [DEBUG] debug-file - Worker 0 has been cleared.
+[2025-05-29T13:55:35.416] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-05-29T13:55:35.416] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-05-29T13:55:35.416] [DEBUG] debug-file - Clear worker 1.
+[2025-05-29T13:55:35.416] [DEBUG] debug-file - Worker 1 has been cleared.
+[2025-05-29T13:55:35.416] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-05-29T13:55:35.416] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-05-29T13:55:35.423] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-05-29T13:55:35.427] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-05-29T13:55:35.428] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-05-29T13:55:35.428] [DEBUG] debug-file - Current worker pool is terminated.
+[2025-05-29T14:01:19.547] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-05-29T14:01:19.615] [DEBUG] debug-file - env: daemon=true
+[2025-05-29T14:01:19.549] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2025-05-29T14:01:20.319] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: [ '--analyze=normal' ],
+  env: {
+    ALLUSERSPROFILE: 'C:\\ProgramData',
+    APPDATA: 'C:\\Users\\邵国豪\\AppData\\Roaming',
+    ChocolateyInstall: 'C:\\ProgramData\\chocolatey',
+    ChocolateyLastPathUpdate: '133637180787624091',
+    classpath: '.;D:\\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\\bin',
+    CommonProgramFiles: 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files',
+    CommonProgramW6432: 'C:\\Program Files\\Common Files',
+    COMPUTERNAME: 'GEMINI12138',
+    ComSpec: 'C:\\WINDOWS\\system32\\cmd.exe',
+    config: '{"product":"default"}',
+    CREATED_BY: 'deveco',
+    CSSCRIPT_INC: 'C:\\ProgramData\\cs-script\\inc',
+    'DevEco Studio': 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;',
+    DEVECO_SDK_HOME: 'D:/Huawei/DevEcoStudio/Studio/DevEco Studio/sdk',
+    DriverData: 'C:\\Windows\\System32\\Drivers\\DriverData',
+    EFC_10932_1262719628: '1',
+    EFC_10932_1592913036: '1',
+    EFC_10932_2283032206: '1',
+    EFC_10932_2775293581: '1',
+    EFC_10932_3789132940: '1',
+    FPS_BROWSER_APP_PROFILE_STRING: 'Internet Explorer',
+    FPS_BROWSER_USER_PROFILE_STRING: 'Default',
+    GOPATH: 'D:\\Go_codes',
+    GOROOT: 'D:\\Go',
+    HDC_SERVER_PORT: '65037',
+    HOMEDRIVE: 'C:',
+    HOMEPATH: '\\Users\\邵国豪',
+    IDEA_INITIAL_DIRECTORY: 'C:\\Users\\邵国豪\\Desktop\\鸿蒙开发实验\\harmony-lab-code\\app-account-manager',
+    IGCCSVC_DB: 'AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVcuafCUC2U+mne6omC9wbQQAAAACAAAAAAAQZgAAAAEAACAAAAANRySzdxoVUKKKnhpR7sHflzIWdn6LRmv6XZCvYqOXTwAAAAAOgAAAAAIAACAAAADA0z/4QOb7UvxqOGwN5/BuF+mVPlQ40+8u+Y7TEU2GlGAAAAAvWw9Bvm/947enB6ZIhLQUVtrsJOFhp5/Nh63qUcekNSZModvPYn8HPyNOfLmt80Y7612xUYeLSXwJsA0fTxjp+Poi8vDpkP++FgYq/FifaZPG+hHWM5BeZfnISBAEzclAAAAAAT7Y+ZStjA0drcw4khJaGy9R0saFGf98uO5lkTClAduHrlDWnSI0DEdqhVLXCGk1bJmP1fl3/hdGHJPiujFFmQ==',
+    'IntelliJ IDEA': 'D:\\IntelliJ IDEA 2024.1.1\\bin;',
+    INTEL_DEV_REDIST: 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\',
+    JAVA_HOME: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr',
+    LOCALAPPDATA: 'C:\\Users\\邵国豪\\AppData\\Local',
+    LOGONSERVER: '\\\\GEMINI12138',
+    MIC_LD_LIBRARY_PATH: 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic',
+    NODE_HOME: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\node',
+    NODE_PATH: 'C:\\Users\\邵国豪\\.hvigor\\project_caches\\59d403e7099f832439a7e0f1647b5551\\workspace\\node_modules',
+    NO_UPDATE_NOTIFIER: 'true',
+    'npm_config_@ohos:registry': 'https://repo.harmonyos.com/npm/',
+    'npm_config_auto-install-peers': 'false',
+    'npm_config_strict-ssl': '',
+    'npm_config_update-notifier': 'false',
+    NUMBER_OF_PROCESSORS: '16',
+    ohpmBin: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\ohpm\\bin\\ohpm.bat',
+    OLLAMA_HOST: ':11434',
+    OLLAMA_ORIGINS: '*',
+    OneDrive: 'C:\\Users\\邵国豪\\OneDrive',
+    OneDriveConsumer: 'C:\\Users\\邵国豪\\OneDrive',
+    OS: 'Windows_NT',
+    Path: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr\\bin;D:/Huawei/DevEcoStudio/Studio/DevEco Studio/tools/node;D:\\app\\proj_user\\product\\12.1.0\\dbhome_1\\bin;D:\\oracle\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle12c\\oracleuser\\product\\12.1.0\\dbhome_2\\bin;C:\\Python312\\Scripts\\;C:\\Python312\\;D:\\oracle12c\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle\\bin;D:\\23ai\\dbhomeFree\\bin;D:\\Oracle23ai\\dbhomeFree\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Bandizip\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:;Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files \\dotnet\\;C:\\ProgramData\\chocolatey\\bin;D:\\;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;D:;Go\\bin;C:\\Program Files\\mingw64\\x86_64-w64-mingw32\\bin;D:\\PHP\\php-8.3.11-Win32-vs16-x64;D:\\Git\\cmd;D:\\Tencent\\WechatWebDeveloperTool\\微信web开发者工具\\dll;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;D:\\node.js\\;C:\\Program Files\\dotnet\\;D:\\node.js\\node_modules\\corepack\\shims;D:\\Redis;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;D:\\vivo\\pcsuite\\;D:\\Java\\jdk1.7.0_80\\bin;D:\\Java\\jre7\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\邵国豪\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin;D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;;D:\\JetBrains\\PyCharm 2024.2.4\\bin;;D:\\mingw64\\bin;D:\\IntelliJ IDEA 2024.1.1\\bin;;C:\\Program Files\\mingw64\\bin;C:\\Users\\邵国豪\\.dotnet\\tools;C:\\Program Files\\dotnet;D:\\node.js;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;;C:\\Users\\邵国豪\\go\\bin;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Ollama;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\node;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr\\bin;D:\\app\\proj_user\\product\\12.1.0\\dbhome_1\\bin;D:\\oracle\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle12c\\oracleuser\\product\\12.1.0\\dbhome_2\\bin;C:\\Python312\\Scripts\\;C:\\Python312\\;D:\\oracle12c\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle\\bin;D:\\23ai\\dbhomeFree\\bin;D:\\Oracle23ai\\dbhomeFree\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Bandizip\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:;Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files \\dotnet\\;C:\\ProgramData\\chocolatey\\bin;D:\\;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;D:;Go\\bin;C:\\Program Files\\mingw64\\x86_64-w64-mingw32\\bin;D:\\PHP\\php-8.3.11-Win32-vs16-x64;D:\\Git\\cmd;D:\\Tencent\\WechatWebDeveloperTool\\微信web开发者工具\\dll;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;D:\\node.js\\;C:\\Program Files\\dotnet\\;D:\\node.js\\node_modules\\corepack\\shims;D:\\Redis;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;D:\\vivo\\pcsuite\\;D:\\Java\\jdk1.7.0_80\\bin;D:\\Java\\jre7\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\邵国豪\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin;D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;;D:\\JetBrains\\PyCharm 2024.2.4\\bin;;D:\\mingw64\\bin;D:\\IntelliJ IDEA 2024.1.1\\bin;;C:\\Program Files\\mingw64\\bin;C:\\Users\\邵国豪\\.dotnet\\tools;C:\\Program Files\\dotnet;D:\\node.js;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;;C:\\Users\\邵国豪\\go\\bin;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Ollama;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;',
+    PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    pip: 'C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts',
+    pip3: 'C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts',
+    PROCESSOR_ARCHITECTURE: 'AMD64',
+    PROCESSOR_IDENTIFIER: 'Intel64 Family 6 Model 154 Stepping 3, GenuineIntel',
+    PROCESSOR_LEVEL: '6',
+    PROCESSOR_REVISION: '9a03',
+    ProgramData: 'C:\\ProgramData',
+    ProgramFiles: 'C:\\Program Files',
+    'ProgramFiles(x86)': 'C:\\Program Files (x86)',
+    ProgramW6432: 'C:\\Program Files',
+    PSModulePath: 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\PowerShell\\Modules\\',
+    PUBLIC: 'C:\\Users\\Public',
+    PyCharm: 'D:\\JetBrains\\PyCharm 2024.2.4\\bin;',
+    'PyCharm Community Edition': 'D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;',
+    QtMsBuild: 'C:\\Users\\邵国豪\\AppData\\Local\\QtMsBuild',
+    SESSIONNAME: 'Console',
+    SystemDrive: 'C:',
+    SystemRoot: 'C:\\WINDOWS',
+    TEMP: 'C:\\Users\\邵国豪\\AppData\\Local\\Temp',
+    TMP: 'C:\\Users\\邵国豪\\AppData\\Local\\Temp',
+    'user.country': 'CN',
+    USERDOMAIN: 'GEMINI12138',
+    USERDOMAIN_ROAMINGPROFILE: 'GEMINI12138',
+    USERNAME: '邵国豪',
+    USERPROFILE: 'C:\\Users\\邵国豪',
+    VBOX_MSI_INSTALL_PATH: 'D:\\VirtualBox\\',
+    windir: 'C:\\WINDOWS',
+    WORKSPACE_DIR: 'C:\\Users\\邵国豪\\.hvigor\\project_caches\\59d403e7099f832439a7e0f1647b5551\\workspace',
+    ZES_ENABLE_SYSMAN: '1'
+  }
+}
+[2025-05-29T14:01:20.309] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2025-05-29T14:01:20.325] [DEBUG] debug-file - java daemon started at port 45050 pid 31232
+[2025-05-29T14:01:20.354] [DEBUG] debug-file - session manager: set active socket. socketId=XejFZDFYnGX09Qu_AAAB
+[2025-05-29T14:01:21.109] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-05-29T14:01:21.127] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-05-29T14:01:21.131] [DEBUG] debug-file - Cache service initialization finished in 5 ms 
+[2025-05-29T14:01:21.142] [DEBUG] debug-file - hvigorfile, resolving C:\Users\邵国豪\Desktop\鸿蒙开发实验\harmony-lab-code\app-account-manager\hvigorfile.ts
+[2025-05-29T14:01:23.016] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-05-29T14:01:23.016] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-05-29T14:01:23.169] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2025-05-29T14:01:23.170] [DEBUG] debug-file - ERROR: stacktrace = Error: Invalid project path.
+	 Detail: Please move the project to a valid path
+    at OhosLogger.errorMessageExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printAllExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1274)
+    at ProjectInspection.exitOnError (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\inspection\project-inspection.js:1:672)
+    at AppPlugin.doProjectInspection (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\common\abstract-project-plugin.js:1:1585)
+    at PluginFactory.getAppPlugin (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js:1:2159)
+    at appTasks (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js:1:593)
+    at bindSystemPlugins (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:6339)
+    at evaluateNodeVigorFile (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:8460)
+    at evalProject (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:3495)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-05-29T14:01:23.170] [ERROR] debug-file - Error: Invalid project path.
+	 Detail: Please move the project to a valid path
+    at OhosLogger.errorMessageExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printAllExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1274)
+    at ProjectInspection.exitOnError (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\inspection\project-inspection.js:1:672)
+    at AppPlugin.doProjectInspection (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\common\abstract-project-plugin.js:1:1585)
+    at PluginFactory.getAppPlugin (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js:1:2159)
+    at appTasks (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js:1:593)
+    at bindSystemPlugins (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:6339)
+    at evaluateNodeVigorFile (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:8460)
+    at evalProject (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:3495)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-05-29T14:01:23.182] [WARN] debug-file - BUILD FAILED in 2 s 68 ms 
+[2025-05-29T14:01:23.203] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-05-29T14:01:23.203] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-05-29T14:01:23.205] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-05-29T14:01:23.207] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-05-29T14:01:23.208] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-05-29T14:01:23.207] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-05-29T14:01:23.209] [DEBUG] debug-file - Cleanup worker 0.
+[2025-05-29T14:01:23.209] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-05-29T14:01:23.209] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-05-29T14:01:23.209] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-05-29T14:01:23.209] [DEBUG] debug-file - Cleanup worker 1.
+[2025-05-29T14:01:23.210] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-05-29T14:01:23.210] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-05-29T14:01:23.210] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-05-29T14:01:23.218] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-05-29T14:01:23.220] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-05-29T14:01:23.220] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-05-29T14:01:23.221] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-05-29T14:01:23.221] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-05-29T15:08:45.775] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2025-05-29T15:08:45.786] [DEBUG] debug-file - java daemon started at port 45050 pid 17872
+[2025-05-29T15:08:44.964] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-05-29T15:08:45.038] [DEBUG] debug-file - env: daemon=true
+[2025-05-29T15:08:44.966] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2025-05-29T15:08:45.834] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: [ '--analyze=normal' ],
+  env: {
+    ALLUSERSPROFILE: 'C:\\ProgramData',
+    APPDATA: 'C:\\Users\\邵国豪\\AppData\\Roaming',
+    ChocolateyInstall: 'C:\\ProgramData\\chocolatey',
+    ChocolateyLastPathUpdate: '133637180787624091',
+    classpath: '.;D:\\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\\bin',
+    CommonProgramFiles: 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files',
+    CommonProgramW6432: 'C:\\Program Files\\Common Files',
+    COMPUTERNAME: 'GEMINI12138',
+    ComSpec: 'C:\\WINDOWS\\system32\\cmd.exe',
+    config: '{"product":"default"}',
+    CREATED_BY: 'deveco',
+    CSSCRIPT_INC: 'C:\\ProgramData\\cs-script\\inc',
+    'DevEco Studio': 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;',
+    DEVECO_SDK_HOME: 'D:/Huawei/DevEcoStudio/Studio/DevEco Studio/sdk',
+    DriverData: 'C:\\Windows\\System32\\Drivers\\DriverData',
+    EFC_10932_1262719628: '1',
+    EFC_10932_1592913036: '1',
+    EFC_10932_2283032206: '1',
+    EFC_10932_2775293581: '1',
+    EFC_10932_3789132940: '1',
+    FPS_BROWSER_APP_PROFILE_STRING: 'Internet Explorer',
+    FPS_BROWSER_USER_PROFILE_STRING: 'Default',
+    GOPATH: 'D:\\Go_codes',
+    GOROOT: 'D:\\Go',
+    HDC_SERVER_PORT: '65037',
+    HOMEDRIVE: 'C:',
+    HOMEPATH: '\\Users\\邵国豪',
+    IDEA_INITIAL_DIRECTORY: 'C:\\Users\\邵国豪\\Desktop\\鸿蒙开发实验\\harmony-lab-code\\app-account-manager',
+    IGCCSVC_DB: 'AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVcuafCUC2U+mne6omC9wbQQAAAACAAAAAAAQZgAAAAEAACAAAAANRySzdxoVUKKKnhpR7sHflzIWdn6LRmv6XZCvYqOXTwAAAAAOgAAAAAIAACAAAADA0z/4QOb7UvxqOGwN5/BuF+mVPlQ40+8u+Y7TEU2GlGAAAAAvWw9Bvm/947enB6ZIhLQUVtrsJOFhp5/Nh63qUcekNSZModvPYn8HPyNOfLmt80Y7612xUYeLSXwJsA0fTxjp+Poi8vDpkP++FgYq/FifaZPG+hHWM5BeZfnISBAEzclAAAAAAT7Y+ZStjA0drcw4khJaGy9R0saFGf98uO5lkTClAduHrlDWnSI0DEdqhVLXCGk1bJmP1fl3/hdGHJPiujFFmQ==',
+    'IntelliJ IDEA': 'D:\\IntelliJ IDEA 2024.1.1\\bin;',
+    INTEL_DEV_REDIST: 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\',
+    JAVA_HOME: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr',
+    LOCALAPPDATA: 'C:\\Users\\邵国豪\\AppData\\Local',
+    LOGONSERVER: '\\\\GEMINI12138',
+    MIC_LD_LIBRARY_PATH: 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic',
+    NODE_HOME: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\node',
+    NODE_PATH: 'C:\\Users\\邵国豪\\.hvigor\\project_caches\\59d403e7099f832439a7e0f1647b5551\\workspace\\node_modules',
+    NO_UPDATE_NOTIFIER: 'true',
+    'npm_config_@ohos:registry': 'https://repo.harmonyos.com/npm/',
+    'npm_config_auto-install-peers': 'false',
+    'npm_config_strict-ssl': '',
+    'npm_config_update-notifier': 'false',
+    NUMBER_OF_PROCESSORS: '16',
+    ohpmBin: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\ohpm\\bin\\ohpm.bat',
+    OLLAMA_HOST: ':11434',
+    OLLAMA_ORIGINS: '*',
+    OneDrive: 'C:\\Users\\邵国豪\\OneDrive',
+    OneDriveConsumer: 'C:\\Users\\邵国豪\\OneDrive',
+    OS: 'Windows_NT',
+    Path: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr\\bin;D:/Huawei/DevEcoStudio/Studio/DevEco Studio/tools/node;D:\\app\\proj_user\\product\\12.1.0\\dbhome_1\\bin;D:\\oracle\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle12c\\oracleuser\\product\\12.1.0\\dbhome_2\\bin;C:\\Python312\\Scripts\\;C:\\Python312\\;D:\\oracle12c\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle\\bin;D:\\23ai\\dbhomeFree\\bin;D:\\Oracle23ai\\dbhomeFree\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Bandizip\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:;Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files \\dotnet\\;C:\\ProgramData\\chocolatey\\bin;D:\\;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;D:;Go\\bin;C:\\Program Files\\mingw64\\x86_64-w64-mingw32\\bin;D:\\PHP\\php-8.3.11-Win32-vs16-x64;D:\\Git\\cmd;D:\\Tencent\\WechatWebDeveloperTool\\微信web开发者工具\\dll;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;D:\\node.js\\;C:\\Program Files\\dotnet\\;D:\\node.js\\node_modules\\corepack\\shims;D:\\Redis;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;D:\\vivo\\pcsuite\\;D:\\Java\\jdk1.7.0_80\\bin;D:\\Java\\jre7\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\邵国豪\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin;D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;;D:\\JetBrains\\PyCharm 2024.2.4\\bin;;D:\\mingw64\\bin;D:\\IntelliJ IDEA 2024.1.1\\bin;;C:\\Program Files\\mingw64\\bin;C:\\Users\\邵国豪\\.dotnet\\tools;C:\\Program Files\\dotnet;D:\\node.js;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;;C:\\Users\\邵国豪\\go\\bin;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Ollama;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\node;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr\\bin;D:\\app\\proj_user\\product\\12.1.0\\dbhome_1\\bin;D:\\oracle\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle12c\\oracleuser\\product\\12.1.0\\dbhome_2\\bin;C:\\Python312\\Scripts\\;C:\\Python312\\;D:\\oracle12c\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle\\bin;D:\\23ai\\dbhomeFree\\bin;D:\\Oracle23ai\\dbhomeFree\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Bandizip\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:;Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files \\dotnet\\;C:\\ProgramData\\chocolatey\\bin;D:\\;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;D:;Go\\bin;C:\\Program Files\\mingw64\\x86_64-w64-mingw32\\bin;D:\\PHP\\php-8.3.11-Win32-vs16-x64;D:\\Git\\cmd;D:\\Tencent\\WechatWebDeveloperTool\\微信web开发者工具\\dll;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;D:\\node.js\\;C:\\Program Files\\dotnet\\;D:\\node.js\\node_modules\\corepack\\shims;D:\\Redis;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;D:\\vivo\\pcsuite\\;D:\\Java\\jdk1.7.0_80\\bin;D:\\Java\\jre7\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\邵国豪\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin;D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;;D:\\JetBrains\\PyCharm 2024.2.4\\bin;;D:\\mingw64\\bin;D:\\IntelliJ IDEA 2024.1.1\\bin;;C:\\Program Files\\mingw64\\bin;C:\\Users\\邵国豪\\.dotnet\\tools;C:\\Program Files\\dotnet;D:\\node.js;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;;C:\\Users\\邵国豪\\go\\bin;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Ollama;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;',
+    PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    pip: 'C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts',
+    pip3: 'C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts',
+    PROCESSOR_ARCHITECTURE: 'AMD64',
+    PROCESSOR_IDENTIFIER: 'Intel64 Family 6 Model 154 Stepping 3, GenuineIntel',
+    PROCESSOR_LEVEL: '6',
+    PROCESSOR_REVISION: '9a03',
+    ProgramData: 'C:\\ProgramData',
+    ProgramFiles: 'C:\\Program Files',
+    'ProgramFiles(x86)': 'C:\\Program Files (x86)',
+    ProgramW6432: 'C:\\Program Files',
+    PSModulePath: 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\PowerShell\\Modules\\',
+    PUBLIC: 'C:\\Users\\Public',
+    PyCharm: 'D:\\JetBrains\\PyCharm 2024.2.4\\bin;',
+    'PyCharm Community Edition': 'D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;',
+    QtMsBuild: 'C:\\Users\\邵国豪\\AppData\\Local\\QtMsBuild',
+    SESSIONNAME: 'Console',
+    SystemDrive: 'C:',
+    SystemRoot: 'C:\\WINDOWS',
+    TEMP: 'C:\\Users\\邵国豪\\AppData\\Local\\Temp',
+    TMP: 'C:\\Users\\邵国豪\\AppData\\Local\\Temp',
+    'user.country': 'CN',
+    USERDOMAIN: 'GEMINI12138',
+    USERDOMAIN_ROAMINGPROFILE: 'GEMINI12138',
+    USERNAME: '邵国豪',
+    USERPROFILE: 'C:\\Users\\邵国豪',
+    VBOX_MSI_INSTALL_PATH: 'D:\\VirtualBox\\',
+    windir: 'C:\\WINDOWS',
+    WORKSPACE_DIR: 'C:\\Users\\邵国豪\\.hvigor\\project_caches\\59d403e7099f832439a7e0f1647b5551\\workspace',
+    ZES_ENABLE_SYSMAN: '1'
+  }
+}
+[2025-05-29T15:08:45.855] [DEBUG] debug-file - session manager: set active socket. socketId=OyehyW3_nELAZ6otAAAB
+[2025-05-29T15:08:46.708] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-05-29T15:08:46.732] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-05-29T15:08:46.738] [DEBUG] debug-file - Cache service initialization finished in 7 ms 
+[2025-05-29T15:08:46.751] [DEBUG] debug-file - hvigorfile, resolving C:\Users\邵国豪\Desktop\鸿蒙开发实验\harmony-lab-code\app-account-manager\hvigorfile.ts
+[2025-05-29T15:08:49.172] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-05-29T15:08:49.172] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-05-29T15:08:49.319] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2025-05-29T15:08:49.321] [DEBUG] debug-file - ERROR: stacktrace = Error: Invalid project path.
+	 Detail: Please move the project to a valid path
+    at OhosLogger.errorMessageExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printAllExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1274)
+    at ProjectInspection.exitOnError (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\inspection\project-inspection.js:1:672)
+    at AppPlugin.doProjectInspection (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\common\abstract-project-plugin.js:1:1585)
+    at PluginFactory.getAppPlugin (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js:1:2159)
+    at appTasks (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js:1:593)
+    at bindSystemPlugins (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:6339)
+    at evaluateNodeVigorFile (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:8460)
+    at evalProject (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:3495)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-05-29T15:08:49.321] [ERROR] debug-file - Error: Invalid project path.
+	 Detail: Please move the project to a valid path
+    at OhosLogger.errorMessageExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printAllExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1274)
+    at ProjectInspection.exitOnError (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\inspection\project-inspection.js:1:672)
+    at AppPlugin.doProjectInspection (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\common\abstract-project-plugin.js:1:1585)
+    at PluginFactory.getAppPlugin (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js:1:2159)
+    at appTasks (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js:1:593)
+    at bindSystemPlugins (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:6339)
+    at evaluateNodeVigorFile (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:8460)
+    at evalProject (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:3495)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-05-29T15:08:49.332] [WARN] debug-file - BUILD FAILED in 2 s 617 ms 
+[2025-05-29T15:08:49.352] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-05-29T15:08:49.352] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-05-29T15:08:49.353] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-05-29T15:08:49.355] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-05-29T15:08:49.356] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-05-29T15:08:49.357] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-05-29T15:08:49.360] [DEBUG] debug-file - Cleanup worker 0.
+[2025-05-29T15:08:49.360] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-05-29T15:08:49.361] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-05-29T15:08:49.361] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-05-29T15:08:49.361] [DEBUG] debug-file - Cleanup worker 1.
+[2025-05-29T15:08:49.361] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-05-29T15:08:49.361] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-05-29T15:08:49.361] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-05-29T15:08:49.369] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-05-29T15:08:49.371] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-05-29T15:08:49.372] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-05-29T15:08:49.373] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-05-29T15:08:49.373] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-05-29T17:42:14.455] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-05-29T17:42:14.524] [DEBUG] debug-file - env: daemon=true
+[2025-05-29T17:42:14.457] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2025-05-29T17:42:15.234] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2025-05-29T17:42:15.247] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: [ '--analyze=normal' ],
+  env: {
+    ALLUSERSPROFILE: 'C:\\ProgramData',
+    APPDATA: 'C:\\Users\\邵国豪\\AppData\\Roaming',
+    ChocolateyInstall: 'C:\\ProgramData\\chocolatey',
+    ChocolateyLastPathUpdate: '133637180787624091',
+    classpath: '.;D:\\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\\bin',
+    CommonProgramFiles: 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files',
+    CommonProgramW6432: 'C:\\Program Files\\Common Files',
+    COMPUTERNAME: 'GEMINI12138',
+    ComSpec: 'C:\\WINDOWS\\system32\\cmd.exe',
+    config: '{"product":"default"}',
+    CREATED_BY: 'deveco',
+    CSSCRIPT_INC: 'C:\\ProgramData\\cs-script\\inc',
+    'DevEco Studio': 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;',
+    DEVECO_SDK_HOME: 'D:/Huawei/DevEcoStudio/Studio/DevEco Studio/sdk',
+    DriverData: 'C:\\Windows\\System32\\Drivers\\DriverData',
+    EFC_10932_1262719628: '1',
+    EFC_10932_1592913036: '1',
+    EFC_10932_2283032206: '1',
+    EFC_10932_2775293581: '1',
+    EFC_10932_3789132940: '1',
+    FPS_BROWSER_APP_PROFILE_STRING: 'Internet Explorer',
+    FPS_BROWSER_USER_PROFILE_STRING: 'Default',
+    GOPATH: 'D:\\Go_codes',
+    GOROOT: 'D:\\Go',
+    HDC_SERVER_PORT: '65037',
+    HOMEDRIVE: 'C:',
+    HOMEPATH: '\\Users\\邵国豪',
+    IDEA_INITIAL_DIRECTORY: 'C:\\Users\\邵国豪\\Desktop\\鸿蒙开发实验\\harmony-lab-code\\app-account-manager',
+    IGCCSVC_DB: 'AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVcuafCUC2U+mne6omC9wbQQAAAACAAAAAAAQZgAAAAEAACAAAAANRySzdxoVUKKKnhpR7sHflzIWdn6LRmv6XZCvYqOXTwAAAAAOgAAAAAIAACAAAADA0z/4QOb7UvxqOGwN5/BuF+mVPlQ40+8u+Y7TEU2GlGAAAAAvWw9Bvm/947enB6ZIhLQUVtrsJOFhp5/Nh63qUcekNSZModvPYn8HPyNOfLmt80Y7612xUYeLSXwJsA0fTxjp+Poi8vDpkP++FgYq/FifaZPG+hHWM5BeZfnISBAEzclAAAAAAT7Y+ZStjA0drcw4khJaGy9R0saFGf98uO5lkTClAduHrlDWnSI0DEdqhVLXCGk1bJmP1fl3/hdGHJPiujFFmQ==',
+    'IntelliJ IDEA': 'D:\\IntelliJ IDEA 2024.1.1\\bin;',
+    INTEL_DEV_REDIST: 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\',
+    JAVA_HOME: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr',
+    LOCALAPPDATA: 'C:\\Users\\邵国豪\\AppData\\Local',
+    LOGONSERVER: '\\\\GEMINI12138',
+    MIC_LD_LIBRARY_PATH: 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic',
+    NODE_HOME: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\node',
+    NODE_PATH: 'C:\\Users\\邵国豪\\.hvigor\\project_caches\\59d403e7099f832439a7e0f1647b5551\\workspace\\node_modules',
+    NO_UPDATE_NOTIFIER: 'true',
+    'npm_config_@ohos:registry': 'https://repo.harmonyos.com/npm/',
+    'npm_config_auto-install-peers': 'false',
+    'npm_config_strict-ssl': '',
+    'npm_config_update-notifier': 'false',
+    NUMBER_OF_PROCESSORS: '16',
+    ohpmBin: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\ohpm\\bin\\ohpm.bat',
+    OLLAMA_HOST: ':11434',
+    OLLAMA_ORIGINS: '*',
+    OneDrive: 'C:\\Users\\邵国豪\\OneDrive',
+    OneDriveConsumer: 'C:\\Users\\邵国豪\\OneDrive',
+    OS: 'Windows_NT',
+    Path: 'D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr\\bin;D:/Huawei/DevEcoStudio/Studio/DevEco Studio/tools/node;D:\\app\\proj_user\\product\\12.1.0\\dbhome_1\\bin;D:\\oracle\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle12c\\oracleuser\\product\\12.1.0\\dbhome_2\\bin;C:\\Python312\\Scripts\\;C:\\Python312\\;D:\\oracle12c\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle\\bin;D:\\23ai\\dbhomeFree\\bin;D:\\Oracle23ai\\dbhomeFree\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Bandizip\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:;Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files \\dotnet\\;C:\\ProgramData\\chocolatey\\bin;D:\\;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;D:;Go\\bin;C:\\Program Files\\mingw64\\x86_64-w64-mingw32\\bin;D:\\PHP\\php-8.3.11-Win32-vs16-x64;D:\\Git\\cmd;D:\\Tencent\\WechatWebDeveloperTool\\微信web开发者工具\\dll;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;D:\\node.js\\;C:\\Program Files\\dotnet\\;D:\\node.js\\node_modules\\corepack\\shims;D:\\Redis;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;D:\\vivo\\pcsuite\\;D:\\Java\\jdk1.7.0_80\\bin;D:\\Java\\jre7\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\邵国豪\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin;D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;;D:\\JetBrains\\PyCharm 2024.2.4\\bin;;D:\\mingw64\\bin;D:\\IntelliJ IDEA 2024.1.1\\bin;;C:\\Program Files\\mingw64\\bin;C:\\Users\\邵国豪\\.dotnet\\tools;C:\\Program Files\\dotnet;D:\\node.js;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;;C:\\Users\\邵国豪\\go\\bin;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Ollama;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\tools\\node;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\jbr\\bin;D:\\app\\proj_user\\product\\12.1.0\\dbhome_1\\bin;D:\\oracle\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle12c\\oracleuser\\product\\12.1.0\\dbhome_2\\bin;C:\\Python312\\Scripts\\;C:\\Python312\\;D:\\oracle12c\\oracleuser\\product\\12.1.0\\dbhome_1\\bin;D:\\Oracle\\bin;D:\\23ai\\dbhomeFree\\bin;D:\\Oracle23ai\\dbhomeFree\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Bandizip\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:;Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files \\dotnet\\;C:\\ProgramData\\chocolatey\\bin;D:\\;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;D:;Go\\bin;C:\\Program Files\\mingw64\\x86_64-w64-mingw32\\bin;D:\\PHP\\php-8.3.11-Win32-vs16-x64;D:\\Git\\cmd;D:\\Tencent\\WechatWebDeveloperTool\\微信web开发者工具\\dll;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;D:\\node.js\\;C:\\Program Files\\dotnet\\;D:\\node.js\\node_modules\\corepack\\shims;D:\\Redis;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;D:\\vivo\\pcsuite\\;D:\\Java\\jdk1.7.0_80\\bin;D:\\Java\\jre7\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\邵国豪\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin;D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;;D:\\JetBrains\\PyCharm 2024.2.4\\bin;;D:\\mingw64\\bin;D:\\IntelliJ IDEA 2024.1.1\\bin;;C:\\Program Files\\mingw64\\bin;C:\\Users\\邵国豪\\.dotnet\\tools;C:\\Program Files\\dotnet;D:\\node.js;D:\\Huawei\\DevEcoStudio\\Studio\\DevEco Studio\\bin;;C:\\Users\\邵国豪\\go\\bin;C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Ollama;D:\\Wamp\\bin\\php\\php8.3.6\\php.exe;C:\\Users\\邵国豪\\AppData\\Roaming\\npm;',
+    PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+    pip: 'C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts',
+    pip3: 'C:\\Users\\邵国豪\\AppData\\Local\\Programs\\Python\\Python311\\Scripts',
+    PROCESSOR_ARCHITECTURE: 'AMD64',
+    PROCESSOR_IDENTIFIER: 'Intel64 Family 6 Model 154 Stepping 3, GenuineIntel',
+    PROCESSOR_LEVEL: '6',
+    PROCESSOR_REVISION: '9a03',
+    ProgramData: 'C:\\ProgramData',
+    ProgramFiles: 'C:\\Program Files',
+    'ProgramFiles(x86)': 'C:\\Program Files (x86)',
+    ProgramW6432: 'C:\\Program Files',
+    PSModulePath: 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\PowerShell\\Modules\\',
+    PUBLIC: 'C:\\Users\\Public',
+    PyCharm: 'D:\\JetBrains\\PyCharm 2024.2.4\\bin;',
+    'PyCharm Community Edition': 'D:\\JetBrains\\PyCharm Community Edition 2024.2.4\\bin;',
+    QtMsBuild: 'C:\\Users\\邵国豪\\AppData\\Local\\QtMsBuild',
+    SESSIONNAME: 'Console',
+    SystemDrive: 'C:',
+    SystemRoot: 'C:\\WINDOWS',
+    TEMP: 'C:\\Users\\邵国豪\\AppData\\Local\\Temp',
+    TMP: 'C:\\Users\\邵国豪\\AppData\\Local\\Temp',
+    'user.country': 'CN',
+    USERDOMAIN: 'GEMINI12138',
+    USERDOMAIN_ROAMINGPROFILE: 'GEMINI12138',
+    USERNAME: '邵国豪',
+    USERPROFILE: 'C:\\Users\\邵国豪',
+    VBOX_MSI_INSTALL_PATH: 'D:\\VirtualBox\\',
+    windir: 'C:\\WINDOWS',
+    WORKSPACE_DIR: 'C:\\Users\\邵国豪\\.hvigor\\project_caches\\59d403e7099f832439a7e0f1647b5551\\workspace',
+    ZES_ENABLE_SYSMAN: '1'
+  }
+}
+[2025-05-29T17:42:15.242] [DEBUG] debug-file - java daemon started at port 45050 pid 3728
+[2025-05-29T17:42:15.293] [DEBUG] debug-file - session manager: set active socket. socketId=QJdr0olwCQmrmCWSAAAB
+[2025-05-29T17:42:16.122] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-05-29T17:42:16.145] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-05-29T17:42:16.150] [DEBUG] debug-file - Cache service initialization finished in 6 ms 
+[2025-05-29T17:42:16.164] [DEBUG] debug-file - hvigorfile, resolving C:\Users\邵国豪\Desktop\鸿蒙开发实验\harmony-lab-code\app-account-manager\hvigorfile.ts
+[2025-05-29T17:42:18.125] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-05-29T17:42:18.125] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-05-29T17:42:18.260] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2025-05-29T17:42:18.261] [DEBUG] debug-file - ERROR: stacktrace = Error: Invalid project path.
+	 Detail: Please move the project to a valid path
+    at OhosLogger.errorMessageExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printAllExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1274)
+    at ProjectInspection.exitOnError (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\inspection\project-inspection.js:1:672)
+    at AppPlugin.doProjectInspection (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\common\abstract-project-plugin.js:1:1585)
+    at PluginFactory.getAppPlugin (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js:1:2159)
+    at appTasks (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js:1:593)
+    at bindSystemPlugins (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:6339)
+    at evaluateNodeVigorFile (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:8460)
+    at evalProject (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:3495)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-05-29T17:42:18.261] [ERROR] debug-file - Error: Invalid project path.
+	 Detail: Please move the project to a valid path
+    at OhosLogger.errorMessageExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printAllExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1274)
+    at ProjectInspection.exitOnError (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\inspection\project-inspection.js:1:672)
+    at AppPlugin.doProjectInspection (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\common\abstract-project-plugin.js:1:1585)
+    at PluginFactory.getAppPlugin (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js:1:2159)
+    at appTasks (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js:1:593)
+    at bindSystemPlugins (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:6339)
+    at evaluateNodeVigorFile (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:8460)
+    at evalProject (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:3495)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-05-29T17:42:18.272] [WARN] debug-file - BUILD FAILED in 2 s 144 ms 
+[2025-05-29T17:42:18.289] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-05-29T17:42:18.290] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-05-29T17:42:18.291] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-05-29T17:42:18.294] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-05-29T17:42:18.295] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-05-29T17:42:18.293] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-05-29T17:42:18.295] [DEBUG] debug-file - Cleanup worker 0.
+[2025-05-29T17:42:18.295] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-05-29T17:42:18.296] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-05-29T17:42:18.296] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-05-29T17:42:18.296] [DEBUG] debug-file - Cleanup worker 1.
+[2025-05-29T17:42:18.296] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-05-29T17:42:18.296] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-05-29T17:42:18.296] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-05-29T17:42:18.303] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-05-29T17:42:18.305] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-05-29T17:42:18.305] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-05-29T17:42:18.306] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-05-29T17:42:18.306] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-05-29T17:42:47.001] [DEBUG] debug-file - session manager: set active socket. socketId=uhJXwLzv0PmjK679AAAD
+[2025-05-29T17:42:47.008] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-05-29T17:42:47.022] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-05-29T17:42:47.025] [DEBUG] debug-file - Cache service initialization finished in 3 ms 
+[2025-05-29T17:42:47.036] [DEBUG] debug-file - hvigorfile, resolving C:\Users\邵国豪\Desktop\鸿蒙开发实验\harmony-lab-code\app-account-manager\hvigorfile.ts
+[2025-05-29T17:42:47.040] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-05-29T17:42:47.040] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-05-29T17:42:47.048] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2025-05-29T17:42:47.049] [DEBUG] debug-file - ERROR: stacktrace = Error: Invalid project path.
+	 Detail: Please move the project to a valid path
+    at OhosLogger.errorMessageExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printAllExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1274)
+    at ProjectInspection.exitOnError (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\inspection\project-inspection.js:1:672)
+    at AppPlugin.doProjectInspection (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\common\abstract-project-plugin.js:1:1585)
+    at PluginFactory.getAppPlugin (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js:1:2159)
+    at appTasks (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js:1:593)
+    at bindSystemPlugins (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:6339)
+    at evaluateNodeVigorFile (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:8460)
+    at evalProject (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:3495)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-05-29T17:42:47.049] [ERROR] debug-file - Error: Invalid project path.
+	 Detail: Please move the project to a valid path
+    at OhosLogger.errorMessageExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printAllExit (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1274)
+    at ProjectInspection.exitOnError (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\inspection\project-inspection.js:1:672)
+    at AppPlugin.doProjectInspection (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\common\abstract-project-plugin.js:1:1585)
+    at PluginFactory.getAppPlugin (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js:1:2159)
+    at appTasks (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js:1:593)
+    at bindSystemPlugins (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:6339)
+    at evaluateNodeVigorFile (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:8460)
+    at evalProject (D:\Huawei\DevEcoStudio\Studio\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:3495)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-05-29T17:42:47.064] [WARN] debug-file - BUILD FAILED in 54 ms 
+[2025-05-29T17:42:47.083] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2025-05-29T17:42:47.083] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-05-29T17:42:47.092] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-05-29T17:42:47.092] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-05-29T17:42:47.092] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-05-29T17:42:47.093] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.

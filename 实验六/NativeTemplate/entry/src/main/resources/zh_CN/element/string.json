@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "NativeTemplateDemo"
+    },
+    {
+      "name": "title",
+      "value": "调用C排序进行排序"
+    },
+    {
+      "name": "message",
+      "value": "对以下数字进行排序"
+    },
+    {
+      "name": "input_x_value",
+      "value": "输入X数值"
+    },
+    {
+      "name": "input_y_value",
+      "value": "输入Y数值"
+    },
+    {
+      "name": "input_z_value",
+      "value": "输入Z数值"
+    },
+    {
+      "name": "result_tip",
+      "value": "结果"
+    },
+    {
+      "name": "submit_button",
+      "value": "排序"
+    }
+  ]
+}

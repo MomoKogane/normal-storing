@@ -1,0 +1,13 @@
+{
+  "modelVersion": "5.0.0",
+  "license": "ISC",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.15"
+  },
+  "name": "etsappaccountmanager",
+  "description": "example description",
+  "main": "hvigorfile.js",
+  "repository": {},
+  "version": "1.0.0",
+  "dependencies": {}
+}

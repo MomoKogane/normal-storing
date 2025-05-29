@@ -1,0 +1,515 @@
+Ôr@Ÿªassertions¤code´customTransformCache¬dependencies¢id¤meta±moduleSideEffects¬originalCode±originalSourcemap«resolvedIds®sourcemapChainµsyntheticNamedExportsµtransformDependencies®transformFiles¨cacheAstÔrAÚLÑif (!("finalizeConstruction" in ViewPU.prototype)) {
+    Reflect.set(ViewPU.prototype, "finalizeConstruction", () => { });
+}
+import libHello from 'libhello.so';
+import CommonContants from '../../common/CommonContants';
+class NativeTemplate extends ViewPU {
+    constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
+        super(parent, __localStorage, elmtId, extraInfo);
+        if (typeof paramsLambda === "function") {
+            this.paramsGenerator_ = paramsLambda;
+        }
+        this.__result = new ObservedPropertySimplePU('0', this, "result");
+        this.__numX = new ObservedPropertySimplePU(0.0, this, "numX");
+        this.__numY = new ObservedPropertySimplePU(0.0, this, "numY");
+        this.__numZ = new ObservedPropertySimplePU(0.0, this, "numZ");
+        this.textInputControllerX = new TextInputController();
+        this.textInputControllerY = new TextInputController();
+        this.textInputControllerZ = new TextInputController();
+        this.setInitiallyProvidedValue(params);
+        this.finalizeConstruction();
+    }
+    setInitiallyProvidedValue(params) {
+        if (params.result !== undefined) {
+            this.result = params.result;
+        }
+        if (params.numX !== undefined) {
+            this.numX = params.numX;
+        }
+        if (params.numY !== undefined) {
+            this.numY = params.numY;
+        }
+        if (params.numZ !== undefined) {
+            this.numZ = params.numZ;
+        }
+        if (params.textInputControllerX !== undefined) {
+            this.textInputControllerX = params.textInputControllerX;
+        }
+        if (params.textInputControllerY !== undefined) {
+            this.textInputControllerY = params.textInputControllerY;
+        }
+        if (params.textInputControllerZ !== undefined) {
+            this.textInputControllerZ = params.textInputControllerZ;
+        }
+    }
+    updateStateVars(params) {
+    }
+    purgeVariableDependenciesOnElmtId(rmElmtId) {
+        this.__result.purgeDependencyOnElmtId(rmElmtId);
+        this.__numX.purgeDependencyOnElmtId(rmElmtId);
+        this.__numY.purgeDependencyOnElmtId(rmElmtId);
+        this.__numZ.purgeDependencyOnElmtId(rmElmtId);
+    }
+    aboutToBeDeleted() {
+        this.__result.aboutToBeDeleted();
+        this.__numX.aboutToBeDeleted();
+        this.__numY.aboutToBeDeleted();
+        this.__numZ.aboutToBeDeleted();
+        SubscriberManager.Get().delete(this.id__());
+        this.aboutToBeDeletedInternal();
+    }
+    get result() {
+        return this.__result.get();
+    }
+    set result(newValue) {
+        this.__result.set(newValue);
+    }
+    get numX() {
+        return this.__numX.get();
+    }
+    set numX(newValue) {
+        this.__numX.set(newValue);
+    }
+    get numY() {
+        return this.__numY.get();
+    }
+    set numY(newValue) {
+        this.__numY.set(newValue);
+    }
+    get numZ() {
+        return this.__numZ.get();
+    }
+    set numZ(newValue) {
+        this.__numZ.set(newValue);
+    }
+    initialRender() {
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+            Column.debugLine("entry/src/main/ets/pages/Index.ets(16:5)", "entry");
+            Column.width(CommonContants.FULL_PARENT);
+            Column.height(CommonContants.FULL_PARENT);
+            Column.backgroundColor({ "id": 16777264, "type": 10001, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Row.create();
+            Row.debugLine("entry/src/main/ets/pages/Index.ets(17:7)", "entry");
+            Row.height({ "id": 16777261, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Row.width(CommonContants.FULL_PARENT);
+            Row.padding({
+                left: { "id": 16777251, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" },
+                right: { "id": 16777251, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" },
+                top: { "id": 16777252, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" }
+            });
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create({ "id": 16777230, "type": 10003, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.debugLine("entry/src/main/ets/pages/Index.ets(18:9)", "entry");
+            Text.fontSize({ "id": 16777263, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.fontWeight(CommonContants.FONT_WEIGHT);
+            Text.height({ "id": 16777262, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.align(Alignment.Center);
+            Text.maxLines(CommonContants.MAX_LINES);
+            Text.textOverflow({ overflow: TextOverflow.Ellipsis });
+        }, Text);
+        Text.pop();
+        Row.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Row.create();
+            Row.debugLine("entry/src/main/ets/pages/Index.ets(34:7)", "entry");
+            Row.height({ "id": 16777241, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Row.width(CommonContants.FULL_PARENT);
+            Row.padding({ left: { "id": 16777251, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" }, right: { "id": 16777251, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" } });
+            Row.justifyContent(FlexAlign.Start);
+            Row.alignItems(VerticalAlign.Bottom);
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create({ "id": 16777226, "type": 10003, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.debugLine("entry/src/main/ets/pages/Index.ets(35:9)", "entry");
+            Text.fontSize({ "id": 16777239, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.fontWeight(CommonContants.FONT_WEIGHT);
+            Text.height({ "id": 16777242, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.align(Alignment.Center);
+            Text.maxLines(CommonContants.MAX_LINES);
+            Text.textOverflow({ overflow: TextOverflow.Ellipsis });
+        }, Text);
+        Text.pop();
+        Row.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+            Column.debugLine("entry/src/main/ets/pages/Index.ets(49:7)", "entry");
+            Column.margin({ "id": 16777238, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Column.borderRadius({ "id": 16777236, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Column.height({ "id": 16777237, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Column.backgroundColor(Color.White);
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Row.create();
+            Row.debugLine("entry/src/main/ets/pages/Index.ets(50:9)", "entry");
+            Row.height({ "id": 16777257, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Row.justifyContent(FlexAlign.End);
+            Row.alignItems(VerticalAlign.Bottom);
+            Row.width(CommonContants.FULL_PARENT);
+            Row.padding({
+                bottom: { "id": 16777259, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" },
+                right: { "id": 16777260, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" }
+            });
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create({ "id": 16777228, "type": 10003, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.debugLine("entry/src/main/ets/pages/Index.ets(51:11)", "entry");
+            Text.height({ "id": 16777258, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777266, "type": 10001, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777256, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+        }, Text);
+        Text.pop();
+        Row.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Row.create();
+            Row.debugLine("entry/src/main/ets/pages/Index.ets(65:9)", "entry");
+            Row.height({ "id": 16777245, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Row.padding({ right: { "id": 16777246, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" } });
+            Row.width(CommonContants.FULL_PARENT);
+            Row.justifyContent(FlexAlign.End);
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create(this.result);
+            Text.debugLine("entry/src/main/ets/pages/Index.ets(66:11)", "entry");
+            Text.textAlign(TextAlign.End);
+            Text.fontColor(Color.Black);
+            Text.fontSize({ "id": 16777244, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.width(CommonContants.FULL_PARENT);
+            Text.height(CommonContants.FULL_PARENT);
+            Text.textOverflow({ overflow: TextOverflow.Clip });
+        }, Text);
+        Text.pop();
+        Row.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Row.create();
+            Row.debugLine("entry/src/main/ets/pages/Index.ets(79:9)", "entry");
+            Row.height({ "id": 16777232, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Row.width(CommonContants.FULL_PARENT);
+            Row.justifyContent(FlexAlign.Center);
+            Row.margin({ top: { "id": 16777233, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" } });
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Button.createWithLabel({ "id": 16777229, "type": 10003, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Button.debugLine("entry/src/main/ets/pages/Index.ets(80:11)", "entry");
+            Button.fontSize({ "id": 16777248, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Button.fontWeight(CommonContants.FONT_WEIGHT);
+            Button.height(CommonContants.FULL_PARENT);
+            Button.width({ "id": 16777234, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Button.onClick(() => {
+                //this.result = libHello.mySort(this.numX, this.numY, this.numZ);
+                const raw = libHello.mySort(this.numX, this.numY, this.numZ);
+                // å¤„ç†ç»“æžœæ ¼å¼ï¼šåŽ»é™¤å‰åŽæ‹¬å·ï¼Œå–æ•´ï¼Œæ‹¼æŽ¥
+                const parts = raw.replace(/^\[|\]$/g, '').split(',');
+                this.result = parts.map(n => Math.floor(Number(n))).join(', ');
+            });
+        }, Button);
+        Button.pop();
+        Row.pop();
+        Column.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Row.create();
+            Row.debugLine("entry/src/main/ets/pages/Index.ets(104:7)", "entry");
+            Row.height({ "id": 16777253, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Row.margin({ top: { "id": 16777235, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" } });
+            Row.padding({ left: { "id": 16777250, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" }, right: { "id": 16777250, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" } });
+            Row.width(CommonContants.FULL_PARENT);
+            Row.justifyContent(FlexAlign.Start);
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create({ "id": 16777224, "type": 10003, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.debugLine("entry/src/main/ets/pages/Index.ets(105:9)", "entry");
+            Text.fontColor(Color.Black);
+            Text.fontSize({ "id": 16777243, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.height({ "id": 16777254, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            TextInput.create({ controller: this.textInputControllerX });
+            TextInput.debugLine("entry/src/main/ets/pages/Index.ets(109:9)", "entry");
+            TextInput.type(InputType.Number);
+            TextInput.height(CommonContants.FULL_PARENT);
+            TextInput.margin({ left: { "id": 16777249, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" } });
+            TextInput.layoutWeight(CommonContants.TEXTINPUT_LAYOUT_WEIGHT);
+            TextInput.onChange(value => {
+                this.numX = Number.parseFloat(value);
+            });
+        }, TextInput);
+        Row.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Row.create();
+            Row.debugLine("entry/src/main/ets/pages/Index.ets(124:7)", "entry");
+            Row.height({ "id": 16777253, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Row.margin({ top: { "id": 16777247, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" } });
+            Row.padding({ left: { "id": 16777250, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" }, right: { "id": 16777250, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" } });
+            Row.width(CommonContants.FULL_PARENT);
+            Row.justifyContent(FlexAlign.Start);
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create({ "id": 16777225, "type": 10003, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.debugLine("entry/src/main/ets/pages/Index.ets(125:9)", "entry");
+            Text.fontColor(Color.Black);
+            Text.fontSize({ "id": 16777243, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.height({ "id": 16777254, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            TextInput.create({ controller: this.textInputControllerY });
+            TextInput.debugLine("entry/src/main/ets/pages/Index.ets(130:9)", "entry");
+            TextInput.type(InputType.Number);
+            TextInput.height(CommonContants.FULL_PARENT);
+            TextInput.margin({ left: { "id": 16777249, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" } });
+            TextInput.layoutWeight(CommonContants.TEXTINPUT_LAYOUT_WEIGHT);
+            TextInput.onChange(value => {
+                this.numY = Number.parseFloat(value);
+            });
+        }, TextInput);
+        Row.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Row.create();
+            Row.debugLine("entry/src/main/ets/pages/Index.ets(145:7)", "entry");
+            Row.height({ "id": 16777253, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Row.margin({ top: { "id": 16777247, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" } });
+            Row.padding({ left: { "id": 16777250, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" }, right: { "id": 16777250, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" } });
+            Row.width(CommonContants.FULL_PARENT);
+            Row.justifyContent(FlexAlign.Start);
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create({ "id": 16777268, "type": 10003, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.debugLine("entry/src/main/ets/pages/Index.ets(146:9)", "entry");
+            Text.fontColor(Color.Black);
+            Text.fontSize({ "id": 16777243, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+            Text.height({ "id": 16777254, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" });
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            TextInput.create({ controller: this.textInputControllerZ });
+            TextInput.debugLine("entry/src/main/ets/pages/Index.ets(151:9)", "entry");
+            TextInput.type(InputType.Number);
+            TextInput.height(CommonContants.FULL_PARENT);
+            TextInput.margin({ left: { "id": 16777249, "type": 10002, params: [], "bundleName": "com.example.nativetemplatedemo", "moduleName": "entry" } });
+            TextInput.layoutWeight(CommonContants.TEXTINPUT_LAYOUT_WEIGHT);
+            TextInput.onChange(value => {
+                this.numZ = Number.parseFloat(value);
+            });
+        }, TextInput);
+        Row.pop();
+        Column.pop();
+    }
+    rerender() {
+        this.updateDirtyElements();
+    }
+    static getEntryName() {
+        return "NativeTemplate";
+    }
+}
+registerNamedRoute(() => new NativeTemplate(undefined, {}), "", { bundleName: "com.example.nativetemplatedemo", moduleName: "entry", pagePath: "pages/Index", pageFullPath: "entry/src/main/ets/pages/Index", integratedHsp: "false", moduleType: "followWithHap" });
+//# sourceMappingURL=Index.js.mapÂ’º hvigor_ignore_libhello.soÙPD:\Huawei\devecoProjects\NativeTemplate\entry\src\main\common\CommonContants.etsÙJD:\Huawei\devecoProjects\NativeTemplate\entry\src\main\ets\pages\Index.etsÔrB›ªmoduleName±isLocalDependency¯isNodeEntryFile§pkgPath±belongProjectPath§pkgNameªpkgVersion±dependencyPkgInfo°belongModulePath¬shouldEmitJs¯hostModulesInfo¥entryÃÂÙ-D:\Huawei\devecoProjects\NativeTemplate\entryÙ'D:\Huawei\devecoProjects\NativeTemplate¥entry¥1.0.0Ô  Ù-D:\Huawei\devecoProjects\NativeTemplate\entryÃÃÚ¦import libHello from 'libhello.so';
+import CommonContants from '../../common/CommonContants';
+
+@Entry
+@Component
+struct NativeTemplate {
+  @State result: string = '0';
+  @State numX: number = 0.0;
+  @State numY: number = 0.0;
+  @State numZ: number = 0.0;
+  private textInputControllerX: TextInputController = new TextInputController();
+  private textInputControllerY: TextInputController = new TextInputController();
+  private textInputControllerZ: TextInputController = new TextInputController();
+
+  build() {
+    Column() {
+      Row() {
+        Text($r('app.string.title'))
+          .fontSize($r('app.float.tittle_font_size'))
+          .fontWeight(CommonContants.FONT_WEIGHT)
+          .height($r('app.float.title_text_height'))
+          .align(Alignment.Center)
+          .maxLines(CommonContants.MAX_LINES)
+          .textOverflow({ overflow: TextOverflow.Ellipsis })
+      }
+      .height($r('app.float.title_height'))
+      .width(CommonContants.FULL_PARENT)
+      .padding({
+        left: $r('app.float.text_padding_left'),
+        right: $r('app.float.text_padding_left'),
+        top: $r('app.float.text_padding_top')
+      })
+
+      Row() {
+        Text($r('app.string.message'))
+          .fontSize($r('app.float.message_font_size'))
+          .fontWeight(CommonContants.FONT_WEIGHT)
+          .height($r('app.float.message_text_height'))
+          .align(Alignment.Center)
+          .maxLines(CommonContants.MAX_LINES)
+          .textOverflow({ overflow: TextOverflow.Ellipsis })
+      }
+      .height($r('app.float.message_height'))
+      .width(CommonContants.FULL_PARENT)
+      .padding({ left: $r('app.float.text_padding_left'), right: $r('app.float.text_padding_left') })
+      .justifyContent(FlexAlign.Start)
+      .alignItems(VerticalAlign.Bottom)
+
+      Column() {
+        Row() {
+          Text($r('app.string.result_tip'))
+            .height($r('app.float.tips_result_message_height'))
+            .fontColor($r('app.color.tips_result_color'))
+            .fontSize($r('app.float.tips_result_font_size'))
+        }
+        .height($r('app.float.tips_result_height'))
+        .justifyContent(FlexAlign.End)
+        .alignItems(VerticalAlign.Bottom)
+        .width(CommonContants.FULL_PARENT)
+        .padding({
+          bottom: $r('app.float.tips_result_padding_bottom'),
+          right: $r('app.float.tips_result_padding_right')
+        })
+
+        Row() {
+          Text(this.result)
+            .textAlign(TextAlign.End)
+            .fontColor(Color.Black)
+            .fontSize($r('app.float.result_font_size'))
+            .width(CommonContants.FULL_PARENT)
+            .height(CommonContants.FULL_PARENT)
+            .textOverflow({ overflow: TextOverflow.Clip })
+        }
+        .height($r('app.float.result_height'))
+        .padding({ right: $r('app.float.result_padding_right') })
+        .width(CommonContants.FULL_PARENT)
+        .justifyContent(FlexAlign.End)
+
+        Row() {
+          Button($r('app.string.submit_button'))
+            .fontSize($r('app.float.submit_button_font_size'))
+            .fontWeight(CommonContants.FONT_WEIGHT)
+            .height(CommonContants.FULL_PARENT)
+            .width($r('app.float.button_width'))
+            .onClick(() => {
+              //this.result = libHello.mySort(this.numX, this.numY, this.numZ);
+              const raw = libHello.mySort(this.numX, this.numY, this.numZ);
+              // å¤„ç†ç»“æžœæ ¼å¼ï¼šåŽ»é™¤å‰åŽæ‹¬å·ï¼Œå–æ•´ï¼Œæ‹¼æŽ¥
+              const parts = raw.replace(/^\[|\]$/g, '').split(',');
+              this.result = parts.map(n => Math.floor(Number(n))).join(', ');
+            })
+        }
+        .height($r('app.float.button_height'))
+        .width(CommonContants.FULL_PARENT)
+        .justifyContent(FlexAlign.Center)
+        .margin({ top: $r('app.float.button_margin_top') })
+
+      }
+      .margin($r('app.float.function_area_margin'))
+      .borderRadius($r('app.float.function_area_border_radius'))
+      .height($r('app.float.function_area_height'))
+      .backgroundColor(Color.White)
+
+      Row() {
+        Text($r('app.string.input_x_value'))
+          .fontColor(Color.Black)
+          .fontSize($r('app.float.num_tips_font_size'))
+          .height($r('app.float.tips_num_text_height'))
+        TextInput({ controller: this.textInputControllerX })
+          .type(InputType.Number)
+          .height(CommonContants.FULL_PARENT)
+          .margin({ left: $r('app.float.text_input_margin_left') })
+          .layoutWeight(CommonContants.TEXTINPUT_LAYOUT_WEIGHT)
+          .onChange(value => {
+            this.numX = Number.parseFloat(value);
+          })
+      }
+      .height($r('app.float.tips_num_height'))
+      .margin({ top: $r('app.float.first_tips_num_margin_top') })
+      .padding({ left: $r('app.float.text_input_padding'), right: $r('app.float.text_input_padding') })
+      .width(CommonContants.FULL_PARENT)
+      .justifyContent(FlexAlign.Start)
+
+      Row() {
+        Text($r(
+          'app.string.input_y_value'))
+          .fontColor(Color.Black)
+          .fontSize($r('app.float.num_tips_font_size'))
+          .height($r('app.float.tips_num_text_height'))
+        TextInput({ controller: this.textInputControllerY })
+          .type(InputType.Number)
+          .height(CommonContants.FULL_PARENT)
+          .margin({ left: $r('app.float.text_input_margin_left') })
+          .layoutWeight(CommonContants.TEXTINPUT_LAYOUT_WEIGHT)
+          .onChange(value => {
+            this.numY = Number.parseFloat(value);
+          })
+      }
+      .height($r('app.float.tips_num_height'))
+      .margin({ top: $r('app.float.second_tips_num_margin_top') })
+      .padding({ left: $r('app.float.text_input_padding'), right: $r('app.float.text_input_padding') })
+      .width(CommonContants.FULL_PARENT)
+      .justifyContent(FlexAlign.Start)
+
+      Row() {
+        Text($r(
+          'app.string.input_z_value'))
+          .fontColor(Color.Black)
+          .fontSize($r('app.float.num_tips_font_size'))
+          .height($r('app.float.tips_num_text_height'))
+        TextInput({ controller: this.textInputControllerZ })
+          .type(InputType.Number)
+          .height(CommonContants.FULL_PARENT)
+          .margin({ left: $r('app.float.text_input_margin_left') })
+          .layoutWeight(CommonContants.TEXTINPUT_LAYOUT_WEIGHT)
+          .onChange(value => {
+            this.numZ = Number.parseFloat(value);
+          })
+      }
+      .height($r('app.float.tips_num_height'))
+      .margin({ top: $r('app.float.second_tips_num_margin_top') })
+      .padding({ left: $r('app.float.text_input_padding'), right: $r('app.float.text_input_padding') })
+      .width(CommonContants.FULL_PARENT)
+      .justifyContent(FlexAlign.Start)
+    }
+    .width(CommonContants.FULL_PARENT)
+    .height(CommonContants.FULL_PARENT)
+    .backgroundColor($r('app.color.background_color'))
+  }
+}ÀÔrC’«libhello.so»../../common/CommonContantsÔrD—ªassertions¨external¢id¤meta±moduleSideEffectsªresolvedByµsyntheticNamedExportsAÃº hvigor_ignore_libhello.soÔrE‘¯hostModulesInfo•ÔrF’²hostDependencyName®hostModuleName«libhello.so¥entryF«libhello.so¥entryF«libhello.so¥entryF«libhello.so¥entryF«libhello.so¥entryÃªoh-resolveÂDAÂÙPD:\Huawei\devecoProjects\NativeTemplate\entry\src\main\common\CommonContants.etsAÃªoh-resolveÂ“ÔrG–§version¤fileªsourceRoot§sources¥names¨mappings¨Index.js ‘©Index.etsÜ,–”    ”  ”  ”  ”"  "”#  #–”   ” ” ” ”8 8”9 9’” ” ‘”  ’”5 ”8 ’”3 ”6 ’”3 ”6 ’”3 	”6 	””$ 
+6”( 
+:”; 
+ÌM”= 
+ÌO””$ 6”( :”; ÌM”= ÌO””$ 6”( :”; ÌM”= ÌO‘” 9’” 	” ’” 	” ’” 	” ’” 	” ’” 	” ’” 	” ’” 		” 	’” 		” 	‘” ’” ” 
+˜” ” 
+” Ì¥” Ì¥
+” Ì¥”' Ì¥”( Ì¥”3 Ì¥%˜” ” 
+” Ì¦” Ì¦” Ì¦”( Ì¦”) Ì¦”4 Ì¦&”” ” 
+” Ì§”" Ì§’” ” 	”” ” 	” ” ˜” ” 	” ” ” ”$ ”% ”0 '•” ” 	” ” ” “” ” ”ÌŠ /“” ” ”Ì‹ 0“” ” ”Ì‰ -‘” ’” ” ”” ” ” ” ˜” ” ” ” ” ”* $”+ %”6 0”” ” ” ” ˜” ” ” ” ” ”  ”! ”' !˜” ” ” ” ” ”( "”) #”2 ,œ” ” ” ” ” ”  ”( "”* $”6 0”7 1”? 9”ÌA ;’” ” ’” ” 	’” !” !	”” !” !	” *” *˜” !” !	” +” +” +”$ +”% +”0 +'œ” !” !	” ,” ,” ,” ,” ,”Ì” ,8”Ì– ,:”Ì› ,?”Í ,Ìb”Í ,Ìd˜” !” !	” -” -” -”( -”) - ”. -%˜” !” !	” .” .” .”( .”) . ”/ .&’” "” "”” "” "” #” #˜” "” "” $” $” $”* $$”+ $%”6 $0”” "” "” %” %˜” "” "” &” &” &”  &”! &”' &!˜” "” "” '” '” '”( '"”) '#”2 ',œ” "” "” (” (” (”  (”( ("”* ($”6 (0”7 (1”? (9”ÌA (;’” "” "’” !” !	’” 0” 0”” 0” 0” Ìb” Ìb”” 0” 0” Ìc” Ìc”” 0” 0” Ìd” Ìd˜” 0” 0” Ìe”" Ìe”# Ìe”( Ìe”) Ìe”. Ìe"’” 1” 1”” 1” 1” 7	” 7˜” 1” 1” 8	” 8” 8”( 8!”) 8"”, 8%˜” 1” 1” 9	” 9” 9”( 9!”) 9"”/ 9(˜” 1” 1” :	” :” :”$ :”% :”0 :)•” 1” 1” ;	” ;” ;“” <
+” <”ÌŒ <<“” =
+” =”Ì‹ =:‘” >	’” 2
+” 2”” 2
+” 2” 3” 3”” 2
+” 2” 4” 4”” 2
+” 2” 5” 5’” 2
+” 2’” 1” 1’” Ì@” Ì@”” Ì@” Ì@” ÌI	” ÌI™” Ì@” Ì@” ÌJ	” ÌJ” ÌJ” ÌJ” ÌJ”Ì• ÌJ>”Ì— ÌJÌ@˜” Ì@” Ì@” ÌK	” ÌK” ÌK”$ ÌK”% ÌK”0 ÌK)˜” Ì@” Ì@” ÌL	” ÌL” ÌL”( ÌL!”) ÌL"”, ÌL%–” ÌA
+” ÌA” ÌA” ÌA” ÌA”# ÌA˜” ÌA
+” ÌA” ÌB” ÌB” ÌB”$ ÌB ”% ÌB!”( ÌB$˜” ÌA
+” ÌA” ÌC” ÌC” ÌC”  ÌC”! ÌC”& ÌC"”” ÌA
+” ÌA” ÌD” ÌD˜” ÌA
+” ÌA” ÌE” ÌE” ÌE”% ÌE!”& ÌE"”1 ÌE-˜” ÌA
+” ÌA” ÌF” ÌF” ÌF”& ÌF"”' ÌF#”2 ÌF.œ” ÌA
+” ÌA” ÌG” ÌG” ÌG”  ÌG”( ÌG$”* ÌG&”6 ÌG2”7 ÌG3”; ÌG7”= ÌG9’” ÌA
+” ÌA’” Ì@” Ì@’” ÌN” ÌN”” ÌN” ÌN” Ì\	” Ì\˜” ÌN” ÌN” Ì]	” Ì]” Ì]”$ Ì]”% Ì]”0 Ì])˜” ÌN” ÌN” Ì^	” Ì^” Ì^”( Ì^!”) Ì^"”/ Ì^(™” ÌN” ÌN” Ì_	” Ì_” Ì_” Ì_” Ì_”Ì’ Ì_8”Ì” Ì_:’” ÌO
+” ÌO”” ÌO
+” ÌO” ÌP” ÌP˜” ÌO
+” ÌO” ÌQ” ÌQ” ÌQ”, ÌQ&”- ÌQ'”8 ÌQ2˜” ÌO
+” ÌO” ÌR” ÌR” ÌR”( ÌR"”) ÌR#”4 ÌR.”” ÌO
+” ÌO” ÌS” ÌS—” ÌO
+” ÌO” ÌT” ÌT” ÌT” ÌT”  ÌT’” ÌU”ÌQ ÌUÌOÜ ” ÌV” ÌV” ÌV” ÌV”$ ÌV"”% ÌV#”+ ÌV)”, ÌV*”0 ÌV.”1 ÌV/”5 ÌV3”7 ÌV5”; ÌV9”< ÌV:”Ì@ ÌV>”ÌB ÌVÌ@”ÌF ÌVÌD”ÌG ÌVÌE”ÌK ÌVÌI”ÌL ÌVÌJ”ÌM ÌVÌK’” ÌW”& ÌW$Ü ” ÌX” ÌX” ÌX” ÌX”! ÌX”" ÌX ”) ÌX'”* ÌX(”4 ÌX2”6 ÌX4”8 ÌX6”9 ÌX7”: ÌX8”? ÌX=”Ì@ ÌX>”ÌC ÌXÌA”ÌD ÌXÌB”ÌE ÌXÌCÜ ” ÌY” ÌY” ÌY” ÌY” ÌY”# ÌY!”$ ÌY"”' ÌY%”( ÌY&”) ÌY'”* ÌY(”, ÌY*”- ÌY+”1 ÌY/”2 ÌY0”7 ÌY5”8 ÌY6”> ÌY<”? ÌY=”Ì@ ÌY>”ÌA ÌY?”ÌB ÌYÌ@”ÌC ÌYÌA”ÌD ÌYÌB”ÌH ÌYÌF”ÌI ÌYÌG”ÌM ÌYÌK”ÌN ÌYÌL”ÌO ÌYÌM’” ÌZ” ÌZ’” ÌO
+” ÌO’” ÌN” ÌN’” 0” 0’” Ìg” Ìg	”” Ìg” Ìg	” Ìu” Ìu™” Ìg” Ìg	” Ìv” Ìv” Ìv” Ìv” Ìv”Ì’ Ìv>”Ì” ÌvÌ@œ” Ìg” Ìg	” Ìw” Ìw” Ìw” Ìw” Ìw”Ì” Ìw9”Ì– Ìw;”Ì› ÌwÌ@”Í ÌwÌd”Í ÌwÌf˜” Ìg” Ìg	” Ìx” Ìx” Ìx”$ Ìx”% Ìx”0 Ìx'˜” Ìg” Ìg	” Ìy” Ìy” Ìy”( Ìy”) Ìy ”. Ìy%’” Ìh” Ìh˜” Ìh” Ìh” Ìi” Ìi” Ìi”  Ìi”! Ìi”& Ìi ”” Ìh” Ìh” Ìj” Ìj”” Ìh” Ìh” Ìk” Ìk’” Ìh” Ìhš” Ìl” Ìl” Ìl” Ìl”) Ìl”+ Ìl ”/ Ìl$”0 Ìl%”ÌD Ìl9”ÌF Ìl;˜” Ìl” Ìl” Ìm” Ìm” Ìm”$ Ìm”% Ìm”+ Ìm ˜” Ìl” Ìl” Ìn” Ìn” Ìn”+ Ìn ”, Ìn!”7 Ìn,™” Ìl” Ìl” Ìo” Ìo” Ìo” Ìo”# Ìo”Ì™ ÌoÌ@”Ì› ÌoÌB˜” Ìl” Ìl” Ìp”" Ìp”# Ìp”1 Ìp&”2 Ìp'”ÌI Ìp>˜” Ìl” Ìl” Ìq” Ìq” Ìq”$ Ìq”% Ìq”' Ìqœ” Ìr” Ìr” Ìr” Ìr” Ìr”" Ìr”# Ìr”- Ìr)”. Ìr*”3 Ìr/”4 Ìr0”5 Ìr1’” Ìs
+” Ìs’” Ìg” Ìg	’” Ì{” Ì{	”” Ì{” Ì{	” ÌŠ” ÌŠ™” Ì{” Ì{	” Ì‹” Ì‹” Ì‹” Ì‹” Ì‹”Ì’ Ì‹?”Ì” Ì‹ÌAœ” Ì{” Ì{	” ÌŒ” ÌŒ” ÌŒ” ÌŒ” ÌŒ”Ì” ÌŒ9”Ì– ÌŒ;”Ì› ÌŒÌ@”Í ÌŒÌd”Í ÌŒÌf˜” Ì{” Ì{	” Ì” Ì” Ì”$ Ì”% Ì”0 Ì'˜” Ì{” Ì{	” ÌŽ” ÌŽ” ÌŽ”( ÌŽ”) ÌŽ ”. ÌŽ%’” Ì|” Ì|˜” Ì|” Ì|” Ì~” Ì~” Ì~”  Ì~”! Ì~”& Ì~ ”” Ì|” Ì|” Ì” Ì”” Ì|” Ì|” Ì€” Ì€’” Ì|” Ì|š” Ì” Ì” Ì” Ì”) Ì”+ Ì ”/ Ì$”0 Ì%”ÌD Ì9”ÌF Ì;˜” Ì” Ì” Ì‚” Ì‚” Ì‚”$ Ì‚”% Ì‚”+ Ì‚ ˜” Ì” Ì” Ìƒ” Ìƒ” Ìƒ”+ Ìƒ ”, Ìƒ!”7 Ìƒ,™” Ì” Ì” Ì„” Ì„” Ì„” Ì„”# Ì„”Ì™ Ì„Ì@”Ì› Ì„ÌB˜” Ì” Ì” Ì…”" Ì…”# Ì…”1 Ì…&”2 Ì…'”ÌI Ì…>˜” Ì” Ì” Ì†” Ì†” Ì†”$ Ì†”% Ì†”' Ì†œ” Ì‡” Ì‡” Ì‡” Ì‡” Ì‡”" Ì‡”# Ì‡”- Ì‡)”. Ì‡*”3 Ì‡/”4 Ì‡0”5 Ì‡1’” Ìˆ
+” Ìˆ’” Ì{” Ì{	’” Ì” Ì	”” Ì” Ì	” ÌŸ” ÌŸ™” Ì” Ì	” Ì ” Ì ” Ì ” Ì ” Ì ”Ì’ Ì ?”Ì” Ì ÌAœ” Ì” Ì	” Ì¡” Ì¡” Ì¡” Ì¡” Ì¡”Ì” Ì¡9”Ì– Ì¡;”Ì› Ì¡Ì@”Í Ì¡Ìd”Í Ì¡Ìf˜” Ì” Ì	” Ì¢” Ì¢” Ì¢”$ Ì¢”% Ì¢”0 Ì¢'˜” Ì” Ì	” Ì£” Ì£” Ì£”( Ì£”) Ì£ ”. Ì£%’” Ì‘” Ì‘˜” Ì‘” Ì‘” Ì“” Ì“” Ì“”  Ì“”! Ì“”& Ì“ ”” Ì‘” Ì‘” Ì”” Ì””” Ì‘” Ì‘” Ì•” Ì•’” Ì‘” Ì‘š” Ì–” Ì–” Ì–” Ì–”) Ì–”+ Ì– ”/ Ì–$”0 Ì–%”ÌD Ì–9”ÌF Ì–;˜” Ì–” Ì–” Ì—” Ì—” Ì—”$ Ì—”% Ì—”+ Ì— ˜” Ì–” Ì–” Ì˜” Ì˜” Ì˜”+ Ì˜ ”, Ì˜!”7 Ì˜,™” Ì–” Ì–” Ì™” Ì™” Ì™” Ì™”# Ì™”Ì™ Ì™Ì@”Ì› Ì™ÌB˜” Ì–” Ì–” Ìš”" Ìš”# Ìš”1 Ìš&”2 Ìš'”ÌI Ìš>˜” Ì–” Ì–” Ì›” Ì›” Ì›”$ Ì›”% Ì›”' Ì›œ” Ìœ” Ìœ” Ìœ” Ìœ” Ìœ”" Ìœ”# Ìœ”- Ìœ)”. Ìœ*”3 Ìœ/”4 Ìœ0”5 Ìœ1’” Ì
+” Ì’” Ì” Ì	’” ” 
+‘” Ì¨ÔrH–§version¤file§sources®sourcesContent¥names¨mappingsÀ‘À‘ÀÜ5‘”    ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”  	 ‘”  
+ ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”    ‘”  ! ‘”  " ‘”  # ‘”  $ ‘”  % ‘”  & ‘”  ' ‘”  ( ‘”  ) ‘”  * ‘”  + ‘”  , ‘”  - ‘”  . ‘”  / ‘”  0 ‘”  1 ‘”  2 ‘”  3 ‘”  4 ‘”  5 ‘”  6 ‘”  7 ‘”  8 ‘”  9 ‘”  : ‘”  ; ‘”  < ‘”  = ‘”  > ‘”  ? ‘”  Ì@ ‘”  ÌA ‘”  ÌB ‘”  ÌC ‘”  ÌD ‘”  ÌE ‘”  ÌF ‘”  ÌG ‘”  ÌH ‘”  ÌI ‘”  ÌJ ‘”  ÌK ‘”  ÌL ‘”  ÌM ‘”  ÌN ‘”  ÌO ‘”  ÌP ‘”  ÌQ ‘”  ÌR ‘”  ÌS ‘”  ÌT ‘”  ÌU ‘”  ÌV ‘”  ÌW ‘”  ÌX ‘”  ÌY ‘”  ÌZ ‘”  Ì[ ‘”  Ì\ ‘”  Ì] ‘”  Ì^ ‘”  Ì_ ‘”  Ì` ‘”  Ìa ‘”  Ìb ‘”  Ìc ‘”  Ìd ‘”  Ìe ‘”  Ìf ‘”  Ìg ‘”  Ìh ‘”  Ìi ‘”  Ìj ‘”  Ìk ‘”  Ìl ‘”  Ìm ‘”  Ìn ‘”  Ìo ‘”  Ìp ‘”  Ìq ‘”  Ìr ‘”  Ìs ‘”  Ìt ‘”  Ìu ‘”  Ìv ‘”  Ìw ‘”  Ìx ‘”  Ìy ‘”  Ìz ‘”  Ì{ ‘”  Ì| ‘”  Ì} ‘”  Ì~ ‘”  Ì ‘”  Ì€ ‘”  Ì ‘”  Ì‚ ‘”  Ìƒ ‘”  Ì„ ‘”  Ì… ‘”  Ì† ‘”  Ì‡ ‘”  Ìˆ ‘”  Ì‰ ‘”  ÌŠ ‘”  Ì‹ ‘”  ÌŒ ‘”  Ì ‘”  ÌŽ ‘”  Ì ‘”  Ì ‘”  Ì‘ ‘”  Ì’ ‘”  Ì“ ‘”  Ì” ‘”  Ì• ‘”  Ì– ‘”  Ì— ‘”  Ì˜ ‘”  Ì™ ‘”  Ìš ‘”  Ì› ‘”  Ìœ ‘”  Ì ‘”  Ìž ‘”  ÌŸ ‘”  Ì  ‘”  Ì¡ ‘”  Ì¢ ‘”  Ì£ ‘”  Ì¤ ‘”  Ì¥ ‘”  Ì¦ ‘”  Ì§ ‘”  Ì¨ ‘”  Ì© ‘”  Ìª ‘”  Ì« ‘”  Ì¬ ‘”  Ì­ ‘”  Ì® ‘”  Ì¯ ‘”  Ì° ‘”  Ì± ‘”  Ì² ‘”  Ì³ ‘”  Ì´ ‘”  Ìµ ‘”  Ì¶ ‘”  Ì· ‘”  Ì¸ ‘”  Ì¹ ‘”  Ìº ‘”  Ì» ‘”  Ì¼ ‘”  Ì½ ‘”  Ì¾ ‘”  Ì¿ ‘”  ÌÀ ‘”  ÌÁ ‘”  ÌÂ ‘”  ÌÃ ‘”  ÌÄ ‘”  ÌÅ ‘”  ÌÆ ‘”  ÌÇ ‘”  ÌÈ ‘”  ÌÉ ‘”  ÌÊ ‘”  ÌË ‘”  ÌÌ ‘”  ÌÍ ‘”  ÌÎ ‘”  ÌÏ ‘”  ÌÐ ‘”  ÌÑ ‘”  ÌÒ ‘”  ÌÓ ‘”  ÌÔ ‘”  ÌÕ ‘”  ÌÖ ‘”  Ì× ‘”  ÌØ ‘”  ÌÙ ‘”  ÌÚ ‘”  ÌÛ ‘”  ÌÜ ‘”  ÌÝ ‘”  ÌÞ ‘”  Ìß ‘”  Ìà ‘”  Ìá ‘”  Ìâ ‘”  Ìã ‘”  Ìä ‘”  Ìå ‘”  Ìæ ‘”  Ìç ‘”  Ìè ‘”  Ìé ‘”  Ìê ‘”  Ìë ‘”  Ìì ‘”  Ìí ‘”  Ìî ‘”  Ìï ‘”  Ìð ‘”  Ìñ ‘”  Ìò ‘”  Ìó ‘”  Ìô ‘”  Ìõ ‘”  Ìö ‘”  Ì÷ ‘”  Ìø ‘”  Ìù ‘”  Ìú ‘”  Ìû ‘”  Ìü ‘”  Ìý ‘”  Ìþ ‘”  Ìÿ ‘”  Í  ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í	 ‘”  Í
+ ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í  ‘”  Í! ‘”  Í" ‘”  Í# ‘”  Í$ ‘”  Í% ‘”  Í& ‘”  Í' ‘”  Í( ‘”  Í) ‘”  Í* ‘”  Í+ ‘”  Í, ‘”  Í- ‘”  Í. ‘”  Í/ ‘”  Í0 ‘”  Í1 ‘”  Í2 ‘”  Í3 ‘”  Í4 ÔrI’§missing¦pluginÃ¦genAbcÂÔ  ÔrJ”²dynamicImportCache¹exportAllDeclarationCache»exportNamedDeclarationCache«importCache’ÔrK•¤type¥start£endªspecifiers¦source±ImportDeclarationÌ€Ì£‘ÔrL”¤type¥start£end¥local¶ImportDefaultSpecifierÌ‡ÌÔrM”¤type¥start£end¤nameªIdentifierÌ‡Ì¨libHelloÔrN•¤type¥start£end¥value£raw§LiteralÌ•Ì¢«libhello.so­'libhello.so'K±ImportDeclarationÌ¥ÌÞ‘L¶ImportDefaultSpecifierÌ¬ÌºMªIdentifierÌ¬Ìº®CommonContantsN§LiteralÌÀÌÝ»../../common/CommonContants½'../../common/CommonContants'

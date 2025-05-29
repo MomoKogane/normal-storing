@@ -1,0 +1,9 @@
+# ninja log v6
+2	212	7690228727566500	CMakeFiles/hello.dir/hello.cpp.o	87f1c71a87d53b76
+214	394	7690228729691410	D:/Huawei/devecoProjects/NativeTemplate/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libhello.so	7ac824173a4c4086
+5	686	7693510720799478	CMakeFiles/hello.dir/hello.cpp.o	87f1c71a87d53b76
+690	988	7693510727648321	D:/Huawei/devecoProjects/NativeTemplate/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libhello.so	7ac824173a4c4086
+9	493	7693580166921728	CMakeFiles/hello.dir/hello.cpp.o	87f1c71a87d53b76
+493	757	7693580171768065	D:/Huawei/devecoProjects/NativeTemplate/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libhello.so	7ac824173a4c4086
+7	504	7693588296126987	CMakeFiles/hello.dir/hello.cpp.o	87f1c71a87d53b76
+505	746	7693588301082993	D:/Huawei/devecoProjects/NativeTemplate/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libhello.so	7ac824173a4c4086

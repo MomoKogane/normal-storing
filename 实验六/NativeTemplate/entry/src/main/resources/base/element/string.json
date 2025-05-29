@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "NativeTemplateDemo"
+    },
+    {
+      "name": "title",
+      "value": "C Standard Library"
+    },
+    {
+      "name": "message",
+      "value": "Calculate the result of "
+    },
+    {
+      "name": "input_x_value",
+      "value": "Input X value"
+    },
+    {
+      "name": "input_y_value",
+      "value": "Input Y value"
+    },
+    {
+      "name": "input_z_value",
+      "value": "Input Z value"
+    },
+    {
+      "name": "result_tip",
+      "value": "Result"
+    },
+    {
+      "name": "submit_button",
+      "value": "Sort"
+    }
+  ]
+}
