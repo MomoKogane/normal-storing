@@ -1,61 +1,61 @@
-### 1. ��Ŀ����
+### 1. 项目介绍
 
-�������ֻ������ѡ�޿ε�ʵ����룬��û��ʲôʵ������
+首先这个只是我们选修课的实验代码，仅供学习使用，并没有什么其他的实际意义
 
-### 2. ��Ŀ�ṹ
+### 2. 项目结构
 
-����ʵ�鶼�Ѿ����������+���棩����ҿ���ֱ������ʹ�á�
+六个实验都已经打包（代码+报告），大家可以直接下载使用。
 
-���룬ʵ���ź�ָ�����Ӧ��ϵ���£�
+代码，实验编号和指导书对应关系如下：
 
-| ʵ���� | ָ�������� | �����ļ��� |
+| 实验编号 | 指导书内容 | 代码文件夹 |
 |---------|---------|---------|
-| ʵ��һ  | 1.2  | lab_helloworld |
-| ʵ���  | 1.3  | SimpleCalculator  |
-| ʵ����  | 1.5  | preferences  |
-| ʵ����  | 1.6  | app-account-manager  |
-| ʵ����  | 1.7  | UserAuth  |
-| ʵ����  | 1.4  | NativeTemplate  |
+| 实验一  | 1.2  | lab_helloworld |
+| 实验二  | 1.3  | SimpleCalculator  |
+| 实验三  | 1.5  | preferences  |
+| 实验四  | 1.6  | app-account-manager  |
+| 实验五  | 1.7  | UserAuth  |
+| 实验六  | 1.4  | NativeTemplate  |
 
 
-### 3. ��������
+### 3. 环境配置
 
-�Լ����� DevEco Studio, ������Ŀ���м��ɡ�  
+自己下载 DevEco Studio, 导入项目运行即可。  
 
-### 4. ������
+### 4. 碎碎念
 
-1.���ע��һ�¿���������Ҫ��
+1.大家注意一下开发环境的要求：
 
 ![1748518322614](image/README/1748518322614.png)
 
-����һ�����ѵ�Ӳ�����˵㵼���ܲ�����
+我有一个朋友的硬件差了点导致跑不起来
 
 ![1748518439423](image/README/1748518439423.png)
 
-��Ҳ�ҪϹ��
+大家不要瞎猜
 
 ![1748518465240](image/README/1748518465240.png)
 
-2.������ϵͳû������DevEco Studio����ϣ���㲻���������֣�
+2.如果你的系统没有适配DevEco Studio……希望你不是下面这种：
 
 ![1748518569403](image/README/1748518569403.png)
 
-3.��Ҷ�����ʵ��ָ����PDF������Ҳ��˵ɶ�ˣ�
+3.大家都看过实验指导的PDF，那我也不说啥了：
 
-��Ȼָ������������������루����ȷʵ���������ã�������ʵ������ʵ�����Ĵ�����Ϊ�汾���µ����⣬�Ѿ������ҵ�Դ������
+虽然指导材料里给了样例代码（而且确实可以拿来用），但是实验三和实验六的代码因为版本更新的问题，已经不能找到源代码了
 
-���������ʵ�����ľɰ汾���룬��ô�����еģ��ֵܣ��еģ�
+如果你想找实验三的旧版本代码，那么……有的，兄弟，有的：
 
-�ֿ⣺[preferences](https://gitee.com/harmonyos_samples/preferences)
+仓库：[preferences](https://gitee.com/harmonyos_samples/preferences)
 
-��¡�ֿ⣺
+克隆仓库：
 
 ```cmd
 git clone https://gitee.com/harmonyos_samples/preferences.git
 ```
 
-ʵ������û���ˣ��Լ��Ұ�
+实验六就没有了，自己找吧
 
-[������°汾NativeTemplate�Ĺٷ�����](https://gitee.com/harmonyos_codelabs/NativeTemplate)
+[这个是新版本NativeTemplate的官方代码](https://gitee.com/harmonyos_codelabs/NativeTemplate)
 
-4.���ע��һ�±�ѧĳ��˾�ڱ��˼ҵ�issue�����ܲ����ÿ������������䡣
+4.大家注意一下别学某公司在别人家的issue里问能不能让开发者主动适配。
